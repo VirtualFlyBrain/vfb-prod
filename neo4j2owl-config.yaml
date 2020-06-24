@@ -25,6 +25,6 @@ property_mapping:
     datatype: "Boolean"
 neo_node_labelling:
   - label:  Neuron_adult
-    expressions:     
+    classes:
       - VFB:000002     
       - RO:0000060 some VFB:000001
