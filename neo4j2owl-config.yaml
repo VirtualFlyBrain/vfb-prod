@@ -26,5 +26,5 @@ property_mapping:
 neo_node_labelling:
   - label:  Neuron_adult
     classes:
-      - VFB:000002     
-      - RO:0000060 some VFB:000001
+      - nic:A  
+      - BFO:0000051 some owl:Thing
