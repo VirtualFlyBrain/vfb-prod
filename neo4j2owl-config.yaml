@@ -124,4 +124,8 @@ neo_node_labelling:
   - label: Adult
     classes: 
       - RO:0002131 some FBbt:00003004
-  
+curie_map:
+  VFB: http://purl.obolibrary.org/obo/fbbt/vfb/VFB_
+  VFBext: http://purl.obolibrary.org/obo/fbbt/vfb/VFBext_
+  vfbp: http://purl.obolibrary.org/obo/fbbt/vfb#
+  vfb: http://www.virtualflybrain.org/owl/
