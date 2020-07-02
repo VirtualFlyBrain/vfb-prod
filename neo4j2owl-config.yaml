@@ -60,9 +60,9 @@ neo_node_labelling:
   - classes:
       - FBbt:00007683
     label: Clone
-#  - classes:
-#      - VFB:10000005
-#    label: Cluster
+  - classes:
+      - VFB:10000005
+    label: Cluster
   - classes:
       - FBbt:00005146
     label: Neuroblast
@@ -81,9 +81,9 @@ neo_node_labelling:
   - classes:
       - CARO:0030002
     label: Expression_pattern
-#  - classes:
-#      - VFBext:0000010
-#    label: Split
+  - classes:
+      - VFBext:0000010
+    label: Split
   - classes:
       - FBbt:00005137
     label: Ganglion
@@ -105,9 +105,9 @@ neo_node_labelling:
   - classes:
       - FBbt:00005133
     label: Serotonergic
-#  - classes:
-#      - VFBext:0000004
-#    label: Expression_pattern_fragment
+  - classes:
+      - VFBext:0000004
+    label: Expression_pattern_fragment
   - classes:
       - FBbt:00005140
     label: Neuromere
