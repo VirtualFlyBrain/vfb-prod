@@ -128,4 +128,7 @@ curie_map:
   VFB: http://purl.obolibrary.org/obo/fbbt/vfb/VFB_
   VFBext: http://purl.obolibrary.org/obo/fbbt/vfb/VFBext_
   vfbp: http://purl.obolibrary.org/obo/fbbt/vfb#
-  vfb: http://www.virtualflybrain.org/owl/
+  VFBO: http://www.virtualflybrain.org/owl/
+  FBR: http://flybase.org/reports/
+  VFBR: http://virtualflybrain.org/reports/
+  
