@@ -2,6 +2,8 @@ FROM virtualflybrain/docker-vfb-neo4j:enterprise
 
 ENV NEOREADONLY=true
 
+ENV BACKUPFILE=""
+
 ENV NEO4J_dbms_memory_heap_maxSize=4G
 ENV NEO4J_dbms_memory_heap_initial__size=1G
 ENV NEO4J_dbms_read__only=true
