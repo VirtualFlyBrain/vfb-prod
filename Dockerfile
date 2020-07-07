@@ -20,6 +20,10 @@ ARG APOC_JAR=https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/dow
 ENV APOC_JAR ${APOC_JAR}
 RUN wget $APOC_JAR -O /var/lib/neo4j/plugins/apoc.jar
 
+RUN mkdir -p /opt/VFB/backup/ 
+
+RUN chmod -R 777 /opt/VFB/backup/ 
+
 RUN chmod +x /opt/VFB/loadKB.sh
 
 ENTRYPOINT ["/opt/VFB/loadKB.sh"]
