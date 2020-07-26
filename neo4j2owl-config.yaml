@@ -126,10 +126,25 @@ neo_node_labelling:
     classes: 
       - RO:0002131 some FBbt:00003004
 curie_map:
-  VFB: http://purl.obolibrary.org/obo/fbbt/vfb/VFB_
+  VFBfbbt: http://purl.obolibrary.org/obo/fbbt/vfb/VFB_
   VFBext: http://purl.obolibrary.org/obo/fbbt/vfb/VFBext_
   vfbp: http://purl.obolibrary.org/obo/fbbt/vfb#
   VFBO: http://www.virtualflybrain.org/owl/
   FBR: http://flybase.org/reports/
-  VFBR: http://virtualflybrain.org/reports/
-  
+  VFBc: http://virtualflybrain.org/reports/VFBc_
+  VFBexp: http://virtualflybrain.org/reports/VFBexp_
+  VFB: http://virtualflybrain.org/reports/VFB_
+  VFBi: http://virtualflybrain.org/reports/VFBi_
+  oio: http://www.geneontology.org/formats/oboInOwl#
+  FALDO: http://biohackathon.org/resource/faldo#
+  dce: http://purl.org/dc/elements/1.1/
+  dcterms: http://purl.org/dc/terms/
+  oban: http://purl.org/oban
+  VFB_DATA: http://virtualflybrain.org/data/
+  VFB_LICENSE: http://virtualflybrain.org/licenses/
+  VFB_API: http://virtualflybrain.org/apis/
+  VFB_SITE: http://virtualflybrain.org/site/
+  orcid: https://orcid.org/
+  foaf: http://xmlns.com/foaf/0.1/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  ncbigene: http://www.ncbi.nlm.nih.gov/gene/
