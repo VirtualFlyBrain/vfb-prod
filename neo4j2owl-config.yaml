@@ -148,3 +148,4 @@ curie_map:
   foaf: http://xmlns.com/foaf/0.1/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   ncbigene: http://www.ncbi.nlm.nih.gov/gene/
+  cc: http://creativecommons.org/ns#
