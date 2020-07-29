@@ -62,7 +62,7 @@ neo_node_labelling:
       - FBbt:00007683
     label: Clone
   - classes:
-      - VFB:10000005
+      - VFBfbbt:10000005
     label: Cluster
   - classes:
       - FBbt:00005146
@@ -149,3 +149,8 @@ curie_map:
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   ncbigene: http://www.ncbi.nlm.nih.gov/gene/
   cc: http://creativecommons.org/ns#
+  fbbt_rel: http://purl.obolibrary.org/obo/fbbt#
+  pato_rel: http://purl.obolibrary.org/obo/pato#
+  so_rel: http://purl.obolibrary.org/obo/so#
+  ro_rel: http://www.obofoundry.org/ro/ro.owl#
+  owl: http://www.w3.org/2002/07/owl#
