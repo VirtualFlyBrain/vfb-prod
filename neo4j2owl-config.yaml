@@ -156,3 +156,10 @@ curie_map:
   so_rel: http://purl.obolibrary.org/obo/so#
   ro_rel: http://www.obofoundry.org/ro/ro.owl#
   owl: http://www.w3.org/2002/07/owl#
+filters:
+  solr: 
+    exclusion:
+      iri_prefix:
+        - http://virtualflybrain.org/reports/VFBc_
+      neo4j_node_label:
+        - Channel
