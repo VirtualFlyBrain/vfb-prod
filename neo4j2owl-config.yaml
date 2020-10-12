@@ -133,10 +133,12 @@ curie_map:
   vfbp: http://purl.obolibrary.org/obo/fbbt/vfb#
   VFBO: http://www.virtualflybrain.org/owl/
   FBR: http://flybase.org/reports/
+  oio: http://www.geneontology.org/formats/oboInOwl#
   VFBc: http://virtualflybrain.org/reports/VFBc_
   VFBexp: http://virtualflybrain.org/reports/VFBexp_
   VFB: http://virtualflybrain.org/reports/VFB_
   VFBi: http://virtualflybrain.org/reports/VFBi_
+  VFBd: http://virtualflybrain.org/reports/
   oio: http://www.geneontology.org/formats/oboInOwl#
   FALDO: http://biohackathon.org/resource/faldo#
   dce: http://purl.org/dc/elements/1.1/
@@ -147,6 +149,7 @@ curie_map:
   VFB_API: http://virtualflybrain.org/apis/
   VFB_SITE: http://virtualflybrain.org/site/
   orcid: https://orcid.org/
+  doi: https://doi.org/
   foaf: http://xmlns.com/foaf/0.1/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   ncbigene: http://www.ncbi.nlm.nih.gov/gene/
