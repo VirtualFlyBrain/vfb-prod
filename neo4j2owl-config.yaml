@@ -134,6 +134,7 @@ curie_map:
   VFBO: http://www.virtualflybrain.org/owl/
   FBR: http://flybase.org/reports/
   oio: http://www.geneontology.org/formats/oboInOwl#
+  PMID: http://www.ncbi.nlm.nih.gov/pubmed/
   VFBc: http://virtualflybrain.org/reports/VFBc_
   VFBexp: http://virtualflybrain.org/reports/VFBexp_
   VFB: http://virtualflybrain.org/reports/VFB_
