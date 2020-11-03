@@ -88,6 +88,9 @@ neo_node_labelling:
       - VFBext:0000010
     label: Split
   - classes:
+      - VFBext:0000010
+    label: Expression_pattern
+  - classes:
       - FBbt:00005137
     label: Ganglion
   - classes:
