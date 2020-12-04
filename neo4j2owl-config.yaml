@@ -26,6 +26,11 @@ property_mapping:
       - "http://www.w3.org/2002/07/owl#deprecated"
     id: deprecated
     datatype: "Boolean"
+  - iris:
+      - "http://purl.obolibrary.org/obo/so#overlaps"
+      - "http://purl.obolibrary.org/obo/RO_0002131"
+    id: overlaps
+ 
 neo_node_labelling:
   - classes:
       - FBbt:00005106
