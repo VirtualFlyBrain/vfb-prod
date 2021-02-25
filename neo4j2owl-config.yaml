@@ -159,7 +159,8 @@ curie_map:
   VFB_LICENSE: http://virtualflybrain.org/licenses/
   VFB_API: http://virtualflybrain.org/apis/
   VFB_SITE: http://virtualflybrain.org/site/
-  orcid: https://orcid.org/
+  orcidS: https://orcid.org/
+  orcid: http://orcid.org/
   doi: https://doi.org/
   foaf: http://xmlns.com/foaf/0.1/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
