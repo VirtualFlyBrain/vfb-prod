@@ -1,4 +1,4 @@
-FROM virtualflybrain/docker-vfb-neo4j:enterprise
+FROM virtualflybrain/docker-vfb-neo4j:3.5-enterprise
 
 ENV NEOREADONLY=true
 
@@ -15,7 +15,7 @@ COPY loadKB.sh /opt/VFB/
 ADD neo4j2owl.jar /var/lib/neo4j/plugins/neo4j2owl.jar 
 
 ###### APOC TOOLS ######
-ENV APOC_VERSION=3.3.0.1
+ENV APOC_VERSION=3.5.0.15
 ARG APOC_JAR=https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/$APOC_VERSION/apoc-$APOC_VERSION-all.jar
 ENV APOC_JAR ${APOC_JAR}
 RUN wget $APOC_JAR -O /var/lib/neo4j/plugins/apoc.jar
