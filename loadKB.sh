@@ -13,7 +13,8 @@ if [ -n "${BACKUPFILE}" ]; then
     rm /opt/VFB/backup/${BACKUPFILE}.tar.gz
     wget http://data.virtualflybrain.org/archive/${BACKUPFILE}.tar.gz 
     tar -xzvf ${BACKUPFILE}.tar.gz
-    cp -rv DB-RESTORE.db /var/lib/neo4j/data/graph.db
+    mkdir -p /var/lib/neo4j/data/databases/
+    cp -rv DB-RESTORE.db /var/lib/neo4j/data/databases/graph.db
     rm -rf /opt/VFB/backup/*
     cd -
   fi
