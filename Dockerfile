@@ -12,7 +12,6 @@ ENV NEO4J_dbms_security_procedures_unrestricted=ebi.spot.neo4j2owl.*,apoc.*
 RUN apt-get -y update && apt-get -y install tar gzip curl wget
 
 COPY loadKB.sh /opt/VFB/
-ADD neo4j2owl.jar /var/lib/neo4j/plugins/neo4j2owl.jar 
 
 ###### APOC TOOLS ######
 ENV APOC_VERSION=3.5.0.15
