@@ -20,7 +20,9 @@ if [ -n "${BACKUPFILE}" ]; then
     fi
     if [ -d /backup/DB-RESTORE.db ]; then
       echo 'Resore KB from given backup'
-      cp 
+      cd /backup/DB-RESTORE.db
+      cp -rv databases /var/lib/neo4j/data/
+      cp -rv dbms /var/lib/neo4j/data/
     fi
   fi
 fi
