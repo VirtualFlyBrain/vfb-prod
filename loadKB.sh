@@ -8,22 +8,14 @@ echo 'dbms.security.procedures.unrestricted=ebi.spot.neo4j2owl.*,apoc.*' >> ${NE
 
 if [ -n "${BACKUPFILE}" ]; then
   if [ ! -d /data/databases/graph.db ]; then
-    if [ ! -d /backup/DB-RESTORE.db ]; then
-      echo 'Resore KB from archive backup'
-      cd /opt/VFB/backup/
-      rm /opt/VFB/backup/${BACKUPFILE}.tar.gz
-      wget http://data.virtualflybrain.org/archive/${BACKUPFILE}.tar.gz 
-      tar -xzvf ${BACKUPFILE}.tar.gz
-      mv -v DB-RESTORE.db /backup/
-      rm -rf /opt/VFB/backup/*
-      cd -
-    fi
-    if [ -d /backup/DB-RESTORE.db ]; then
-      echo 'Resore KB from given backup'
-      cd /backup/DB-RESTORE.db
-      cp -rv databases /var/lib/neo4j/data/
-      cp -rv dbms /var/lib/neo4j/data/
-    fi
+    echo 'Resore KB from archive backup'
+    cd /opt/VFB/backup/
+    rm /opt/VFB/backup/${BACKUPFILE}.tar.gz
+    wget http://data.virtualflybrain.org/archive/${BACKUPFILE}.tar.gz 
+    tar -xzvf ${BACKUPFILE}.tar.gz
+    cp -rv DB-RESTORE.db /var/lib/neo4j/data/graph.db
+    rm -rf /opt/VFB/backup/*
+    cd -
   fi
 fi
 
