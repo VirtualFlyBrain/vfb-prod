@@ -14,14 +14,13 @@ if [ -n "${BACKUPFILE}" ]; then
       rm /opt/VFB/backup/${BACKUPFILE}.tar.gz
       wget http://data.virtualflybrain.org/archive/${BACKUPFILE}.tar.gz 
       tar -xzvf ${BACKUPFILE}.tar.gz
-      mkdir -p /backup/DB-RESTORE.db/
-      find /opt/VFB/backup/ -name 'DB-RESTORE.db' -exec cp -vr "{}" /backup/ +
+      mv -v DB-RESTORE.db /backup/
       rm -rf /opt/VFB/backup/*
       cd -
     fi
     if [ -d /backup/DB-RESTORE.db ]; then
       echo 'Resore KB from given backup'
-      /var/lib/neo4j/bin/neo4j-admin restore --from=/backup/DB-RESTORE.db --force=true
+      cp 
     fi
   fi
 fi
