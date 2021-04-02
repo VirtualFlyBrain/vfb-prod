@@ -14,7 +14,7 @@ if [ -n "${BACKUPFILE}" ]; then
       rm /opt/VFB/backup/${BACKUPFILE}.tar.gz
       wget http://data.virtualflybrain.org/archive/${BACKUPFILE}.tar.gz 
       tar -xzvf ${BACKUPFILE}.tar.gz
-      mv -v DB-RESTORE.db /backup/DB-RESTORE.db
+      mv -v DB-RESTORE.db /backup/
       rm -rf /opt/VFB/backup/*
       cd -
     fi
