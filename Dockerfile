@@ -2,7 +2,7 @@ FROM virtualflybrain/docker-vfb-neo4j:3.5-enterprise
 
 ENV NEOREADONLY=true
 
-ENV BACKUPFILE="VFB-PDB2"
+ENV BACKUPFILE="VFB-PDB2-v3_5"
 
 ENV NEO4J_dbms_memory_heap_maxSize=4G
 ENV NEO4J_dbms_memory_heap_initial__size=1G
