@@ -3,18 +3,18 @@ echo "set read only = ${NEOREADONLY} then launch neo4j service"
 sed -i s/read_only=.*/read_only=${NEOREADONLY}/ ${NEOSERCONF} && \
 
 echo 'Allow new neo4j2owl plugin to make changes..'
-echo 'dbms.security.procedures.unrestricted=ebi.spot.neo4j2owl.*,apoc.*' >> ${NEOSERCONF}
+echo 'dbms.security.procedures.unrestricted=ebi.spot.neo4j2owl.*,apoc.*,gds.*' >> ${NEOSERCONF}
 #echo 'dbms.security.procedures.whitelist=ebi.spot.neo4j2owl.*,apoc.*' >> ${NEOSERCONF}
 
 if [ -n "${BACKUPFILE}" ]; then
-  if [ ! -d /data/databases/graph.db ]; then
+  if [ ! -d /data/databases/neo4j ]; then
     echo 'Resore KB from archive backup'
     cd /opt/VFB/backup/
     rm /opt/VFB/backup/${BACKUPFILE}.tar.gz
     wget http://data.virtualflybrain.org/archive/${BACKUPFILE}.tar.gz 
     tar -xzvf ${BACKUPFILE}.tar.gz
     mkdir -p /var/lib/neo4j/data/databases/
-    cp -rv DB-RESTORE.db /var/lib/neo4j/data/databases/graph.db
+    cp -rv neo4j /var/lib/neo4j/data/databases/neo4j
     rm -rf /opt/VFB/backup/*
     cd -
   fi
