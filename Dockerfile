@@ -23,7 +23,7 @@ RUN wget $APOC_JAR -O /var/lib/neo4j/plugins/apoc.jar
 ENV GDS_VERSION=1.5.1
 ARG GDS_JAR=https://s3-eu-west-1.amazonaws.com/com.neo4j.graphalgorithms.dist/graph-data-science/neo4j-graph-data-science-$GDS_VERSION-standalone.zip
 ENV GDS_JAR ${GDS_JAR}
-RUN wget $GDS_JAR -O /var/lib/neo4j/plugins/gds.zip && unzip tmp.zip && rm tmp.zip
+RUN wget $GDS_JAR -O /var/lib/neo4j/plugins/gds.zip && cd /var/lib/neo4j/plugins/ && unzip tmp.zip && rm tmp.zip
 
 RUN mkdir -p /opt/VFB/backup/ 
 
