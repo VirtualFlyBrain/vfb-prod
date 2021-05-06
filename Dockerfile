@@ -11,6 +11,8 @@ ENV NEO4J_dbms_read__only=true
 ENV NEO4J_dbms_security_procedures_unrestricted=ebi.spot.neo4j2owl.*,apoc.*
 ENV NEO4J_dbms_directories_import=import
 ENV NEO4J_dbms_security_allow_csv_import_from_file_urls=true
+ENV NEO4J_dbms_connector_bolt_listen__address=:7686
+ENV NEO4J_dbms_connector_bolt_advertised__address=:7686
 
 RUN apt-get -qq update || apt-get -qq update && \
 apt-get -qq -y install tar gzip curl wget
