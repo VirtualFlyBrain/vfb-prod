@@ -135,6 +135,18 @@ neo_node_labelling:
   - label: Adult
     classes: 
       - RO:0002131 some FBbt:00003004
+  - label: fafb
+    classes:
+      - VFBd:catmaid_fafb
+      - oio:hasDbXref some VFBd:catmaid_fafb
+  - label: l1em
+    classes:
+      - VFBd:catmaid_l1em
+      - oio:hasDbXref some VFBd:catmaid_l1em
+  - label: hemibrain
+    classes:
+      - VFBd:neuprint_JRC_Hemibrain_1point1
+      - oio:hasDbXref some VFBd:neuprint_JRC_Hemibrain_1point1
 curie_map:
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
