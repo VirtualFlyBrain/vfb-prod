@@ -14,7 +14,8 @@ if [ -n "${BACKUPFILE}" ]; then
     wget http://data.virtualflybrain.org/archive/${BACKUPFILE}.tar.gz 
     tar -xzvf ${BACKUPFILE}.tar.gz
     mkdir -p /var/lib/neo4j/data/databases/
-    neo4j-admin restore --from /opt/VFB/backup/neo4j/neo4j --force
+    echo bkdir=/opt/VFB/backup/*/neostore
+    neo4j-admin restore --from ${bkdir/\/neostore/} --force
     rm -rf /opt/VFB/backup/*
     cd -
   fi
