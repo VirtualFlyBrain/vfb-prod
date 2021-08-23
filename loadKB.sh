@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "set read only = ${NEOREADONLY} then launch neo4j service"
 sed -i s/read_only=.*/read_only=${NEOREADONLY}/ ${NEOSERCONF} && \
 
@@ -14,8 +14,9 @@ if [ -n "${BACKUPFILE}" ]; then
     wget http://data.virtualflybrain.org/archive/${BACKUPFILE}.tar.gz 
     tar -xzvf ${BACKUPFILE}.tar.gz
     mkdir -p /var/lib/neo4j/data/databases/
-    echo bkdir=/opt/VFB/backup/*/neostore
-    neo4j-admin restore --from ${bkdir/\/neostore/} --force
+    bkdir=$(ls /opt/VFB/backup/*/neostore)
+    mv -v "${bkdir/\/neostore/}" /opt/VFB/backup/neo4j
+    neo4j-admin restore --from /opt/VFB/backup/neo4j --force
     rm -rf /opt/VFB/backup/*
     cd -
   fi
