@@ -78,7 +78,7 @@ neo_node_labelling:
       - FBbt:00005149
     label: GMC
   - classes:
-      - FBbt:10000000
+      - CARO:0000000
     label: Anatomy
   - classes:
       - FBbt:00007002
@@ -171,6 +171,7 @@ curie_map:
   so_rel: http://purl.obolibrary.org/obo/so#
   ro_rel: http://www.obofoundry.org/ro/ro.owl#
   owl: http://www.w3.org/2002/07/owl#
+  CARO: http://purl.obolibrary.org/obo/CARO_
 filters:
   solr: 
     exclusion:
