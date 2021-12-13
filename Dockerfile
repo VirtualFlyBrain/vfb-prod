@@ -7,7 +7,7 @@ ENV NEO4J_dbms_memory_heap_initial__size=1G
 ENV NEO4J_dbms_read__only=true
 ENV NEO4J_dbms_security_procedures_unrestricted=ebi.spot.neo4j2owl.*,apoc.*
 
-RUN apk update && apk add tar gzip curl wget
+RUN apt-get -y update && apt-get -y install tar gzip curl wget
 
 COPY loadKB.sh /opt/VFB/
 ADD neo4j2owl.jar /var/lib/neo4j/plugins/neo4j2owl.jar 
