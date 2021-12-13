@@ -1,4 +1,4 @@
-FROM virtualflybrain/docker-vfb-neo4j:enterprise
+FROM virtualflybrain/docker-vfb-neo4j:4.2-community
 
 ENV NEOREADONLY=true
 
