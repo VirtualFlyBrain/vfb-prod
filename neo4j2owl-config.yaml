@@ -39,6 +39,27 @@ neo_node_labelling:
       - FBbt:00005124
     label: Sensory_neuron
   - classes:
+      - FBbt:00005922
+    label: Chemosensory_neuron
+  - classes:
+      - FBbt:00005923
+    label: Hygrosensory_neuron
+  - classes:
+      - FBbt:00005919
+    label: Mechanosensory_neuron
+  - classes:
+      - FBbt:00048471
+    label: Nociceptive_neuron
+  - classes:
+      - FBbt:00004211
+    label: Photoreceptor_neuron
+  - classes:
+      - FBbt:00051439
+    label: Proprioceptive_neuron
+  - classes:
+      - FBbt:00005918
+    label: Thermosensory_neuron
+  - classes:
       - FBbt:00005155
     label: Sense_organ
   - classes:
