@@ -42,9 +42,6 @@ neo_node_labelling:
       - FBbt:00005155
     label: Sense_organ
   - classes:
-      - FBbt:00005155
-    label: Nervous_system
-  - classes:
       - FBbt:00005123
     label: Motor_neuron
   - classes:
