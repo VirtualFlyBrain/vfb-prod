@@ -172,6 +172,7 @@ curie_map:
   ro_rel: http://www.obofoundry.org/ro/ro.owl#
   owl: http://www.w3.org/2002/07/owl#
   CARO: http://purl.obolibrary.org/obo/CARO_
+  NPEx: http://www.snomedbrowser.com/Codes/Details/
 filters:
   solr: 
     exclusion:
