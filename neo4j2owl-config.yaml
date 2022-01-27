@@ -42,11 +42,20 @@ neo_node_labelling:
       - FBbt:00005922
     label: Chemosensory_neuron
   - classes:
+      - FBbt:00005926
+    label: Olfactory_neuron
+  - classes:
+      - FBbt:00005927
+    label: Gustatory_neuron
+  - classes:
       - FBbt:00005923
     label: Hygrosensory_neuron
   - classes:
       - FBbt:00005919
     label: Mechanosensory_neuron
+  - classes:
+      - FBbt:00007684
+    label: Auditory_neuron
   - classes:
       - FBbt:00048471
     label: Nociceptive_neuron
