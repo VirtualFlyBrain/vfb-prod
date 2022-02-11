@@ -28,6 +28,10 @@ chown -R neo4j /logs || :
 chown -R neo4j /data || :
 chown -R neo4j /import || :
 chown -R neo4j /var/lib/neo4j/plugins || :
+chmod -R 777 /logs || :
+chmod -R 777 /data || :
+chmod -R 777 /import || :
+chmod -R 777 /var/lib/neo4j/plugins || :
 
 #Output the query log to docker log:
 tail -f /var/lib/neo4j/logs/query.log >/proc/1/fd/1 &
