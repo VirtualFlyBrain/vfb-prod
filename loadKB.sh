@@ -26,5 +26,4 @@ echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/query.log
 
 #Output the query log to docker log:
 tail -f /var/lib/neo4j/logs/query.log >/proc/1/fd/1 &
-chmod -R 777 /import || :
 exec /docker-entrypoint.sh neo4j
