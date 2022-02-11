@@ -16,8 +16,7 @@ if [ -n "${BACKUPFILE}" ]; then
     mkdir -p /var/lib/neo4j/data/databases/
     bkdir=$(ls /opt/VFB/backup/*/neostore)
     mv -v "${bkdir/\/neostore/}" /opt/VFB/backup/neo4j
-    chmod -R 777 /opt/VFB/backup/neo4j
-    sudo -u neo4j neo4j-admin restore --from /opt/VFB/backup/neo4j --force
+    neo4j-admin restore --from /opt/VFB/backup/neo4j --force
     rm -rf /opt/VFB/backup/*
     cd -
   fi
