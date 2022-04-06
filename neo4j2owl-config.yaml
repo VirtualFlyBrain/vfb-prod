@@ -38,12 +38,41 @@ neo_node_labelling:
   - classes:
       - FBbt:00005124
     label: Sensory_neuron
+  - label: Chemosensory_system
+    classes:
+      - FBbt:00007689
+      - BFO:0000050 some FBbt:00007689
+  - label: Olfactory_system
+    classes:
+      - FBbt:00007688
+      - BFO:0000050 some FBbt:00007688
+  - label: Gustatory_system
+    classes:
+      - FBbt:00007690
+      - BFO:0000050 some FBbt:00007690
+  - label: Hygrosensory_system
+    classes:
+      - FBbt:00110660
+      - BFO:0000050 some FBbt:00110660
+  - label: Thermosensory_system
+    classes:
+      - FBbt:00007691
+      - BFO:0000050 some FBbt:00007691
+  - label: Visual_system
+    classes:
+      - FBbt:00047735
+      - BFO:0000050 some FBbt:00047735
+  - label: Mechanosensory_system
+    classes:
+      - FBbt:00007687
+      - BFO:0000050 some FBbt:00007687
+  - label: Auditory_system
+    classes:
+      - FBbt:00007685
+      - BFO:0000050 some FBbt:00007685
   - classes:
       - FBbt:00005155
     label: Sense_organ
-  - classes:
-      - FBbt:00005155
-    label: Nervous_system
   - classes:
       - FBbt:00005123
     label: Motor_neuron
