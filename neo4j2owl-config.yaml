@@ -66,6 +66,14 @@ neo_node_labelling:
     classes:
       - FBbt:00007687
       - BFO:0000050 some FBbt:00007687
+  - label: Nociceptive_system
+    classes:
+      - FBbt:00052155
+      - BFO:0000050 some FBbt:00052155
+  - label: Proprioceptive_system
+    classes:
+      - FBbt:00052154
+      - BFO:0000050 some FBbt:00052154
   - label: Auditory_system
     classes:
       - FBbt:00007685
