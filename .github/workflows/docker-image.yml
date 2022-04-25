@@ -11,11 +11,23 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
-    - run: docker build . --file Dockerfile --tag vfb-prod:${GITHUB_REF#refs/heads/}
-    - name: Dockerize
-      if: success()
-      uses: manusa/actions-publish-docker@v1.1.2
+    - name: Setup environment
+      run: echo "BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+    - name: Set up QEMU
+      uses: docker/setup-qemu-action@v1
+    - name: Set up Docker Buildx
+      id: buildx
+      uses: docker/setup-buildx-action@v1
+    - name: Login to Docker Hub
+      uses: docker/login-action@v1
       with:
-        name: virtualflybrain/vfb-prod
         username: ${{ secrets.DOCKER_HUB_USER }}
         password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+    - name: Build and push
+      uses: docker/build-push-action@v2
+      with:
+        push: true
+        context: .
+        file: Dockerfile
+        platforms: linux/amd64,linux/arm64
+        tags: virtualflybrain/vfb-prod:${{ env.BRANCH }}
