@@ -7,7 +7,7 @@ echo 'dbms.security.procedures.unrestricted=ebi.spot.neo4j2owl.*,apoc.*,gds.*' >
 
 if [ -n "${BACKUPFILE}" ]; then
   if [ ! -d /data/databases/neo4j ]; then
-    if [ ! -f /backup/neo4j.dump ]; then
+    if [ ! -d /backup/DB-RESTORE.db ]; then
       echo 'Resore KB from archive backup'
       cd /opt/VFB/backup/
       rm /opt/VFB/backup/${BACKUPFILE}.tar.gz
@@ -20,9 +20,9 @@ if [ -n "${BACKUPFILE}" ]; then
       rm -rf /opt/VFB/backup/*
       cd -
     fi
-    if [ -f /backup/neo4j.dump ]; then
+    if [ -d /backup/DB-RESTORE.db ]; then
       echo 'Resore KB from given backup'
-      /var/lib/neo4j/bin/neo4j-admin load --from=/backup/neo4j.dump --force
+      /var/lib/neo4j/bin/neo4j-admin restore --from=/backup/DB-RESTORE.db --force
     fi
   fi
 fi
