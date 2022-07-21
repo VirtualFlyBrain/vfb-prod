@@ -9,15 +9,8 @@ if [ -n "${BACKUPFILE}" ]; then
   if [ ! -d /data/databases/neo4j ]; then
     if [ ! -f /backup/neo4j.dump ]; then
       echo 'Resore KB from archive backup'
-      cd /opt/VFB/backup/
-      rm /opt/VFB/backup/${BACKUPFILE}.tar.gz
-      wget http://data.virtualflybrain.org/archive/${BACKUPFILE}.tar.gz 
-      tar -xzvf ${BACKUPFILE}.tar.gz
-      mkdir -p /var/lib/neo4j/data/databases/
-      bkdir=$(ls /opt/VFB/backup/*/neostore)
-      mv -v "${bkdir/\/neostore/}" /opt/VFB/backup/neo4j
-      neo4j-admin restore --from /opt/VFB/backup/neo4j --force
-      rm -rf /opt/VFB/backup/*
+      cd /backup/
+      wget http://data.virtualflybrain.org/archive/${BACKUPFILE} 
       cd -
     fi
     if [ -f /backup/neo4j.dump ]; then
