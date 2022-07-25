@@ -21,6 +21,8 @@ if [ -n "${BACKUPFILE}" ]; then
 fi
 
 echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/query.log
+echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/debug.log
+echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/security.log
 
 chown -R neo4j /logs || :
 chown -R neo4j /data || :
@@ -33,6 +35,8 @@ chmod -R 777 /var/lib/neo4j/plugins || :
 
 #Output the query log to docker log:
 tail -f /var/lib/neo4j/logs/query.log >/proc/1/fd/1 &
+tail -f /var/lib/neo4j/logs/debug.log >/proc/1/fd/1 &
+tail -f /var/lib/neo4j/logs/security.log >/proc/1/fd/1 &
 
 sleep 4m && cypher-shell -u neo4j -p ${NEO4J_AUTH/neo4j\//} -d system 'START DATABASE neo4j' 
 exec /docker-entrypoint.sh neo4j
