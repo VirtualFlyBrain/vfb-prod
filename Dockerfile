@@ -1,6 +1,6 @@
 FROM virtualflybrain/docker-vfb-neo4j:4.2-enterprise
 
-VOLUME \backup
+VOLUME /backup
 
 ENV NEOREADONLY=true
 
