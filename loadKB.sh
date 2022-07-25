@@ -6,7 +6,7 @@ echo 'Allow new neo4j2owl plugin to make changes..'
 echo 'dbms.security.procedures.unrestricted=ebi.spot.neo4j2owl.*,apoc.*,gds.*' >> ${NEOSERCONF}
 
 if [ -n "${BACKUPFILE}" ]; then
-  if [ ! -d /data/databases/neo4j ]; then
+  if [ ! -f /data/databases/neo4j/neostore ]; then
     if [ ! -f /backup/neo4j.dump ]; then
       echo 'Resore KB from archive backup'
       cd /backup/
