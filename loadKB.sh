@@ -24,10 +24,10 @@ echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/query.log
 echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/debug.log
 echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/security.log
 
-chown -R neo4j /logs || :
-chown -R neo4j /data || :
-chown -R neo4j /import || :
-chown -R neo4j /var/lib/neo4j/plugins || :
+chown -R neo4j.neo4j /logs || :
+chown -R neo4j.neo4j /data || :
+chown -R neo4j.neo4j /import || :
+chown -R neo4j.neo4j /var/lib/neo4j/plugins || :
 chmod -R 777 /logs || :
 chmod -R 777 /data || :
 chmod -R 777 /import || :
