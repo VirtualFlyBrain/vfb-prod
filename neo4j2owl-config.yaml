@@ -33,6 +33,9 @@ property_mapping:
  
 neo_node_labelling:
   - classes:
+      - FBcv:0003023
+    label: DataSet
+  - classes:
       - FBbt:00005106
     label: Neuron
   - classes:
@@ -180,6 +183,7 @@ curie_map:
   vfbp: http://purl.obolibrary.org/obo/fbbt/vfb#
   VFBO: http://www.virtualflybrain.org/owl/
   FBR: http://flybase.org/reports/
+  FBcv: http://purl.obolibrary.org/obo/FBcv_
   oio: http://www.geneontology.org/formats/oboInOwl#
   PMID: http://www.ncbi.nlm.nih.gov/pubmed/
   VFBc: http://virtualflybrain.org/reports/VFBc_
