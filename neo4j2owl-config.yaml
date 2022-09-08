@@ -109,7 +109,7 @@ neo_node_labelling:
       - FBbt:00007683
     label: Clone
   - classes:
-      - VFBfbbt:10000005
+      - FBcv:0009003
     label: Cluster
   - classes:
       - FBbt:00005146
