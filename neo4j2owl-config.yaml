@@ -36,6 +36,9 @@ neo_node_labelling:
       - FBcv:0003023
     label: DataSet
   - classes:
+      - FBcv:0003024
+    label: Sample
+  - classes:
       - FBbt:00005106
     label: Neuron
   - classes:
