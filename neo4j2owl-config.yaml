@@ -172,12 +172,16 @@ neo_node_labelling:
     classes:
       - RO:0002131 some FBbt:00005093
       - FBbt:00005155
+      - RO:0002490 some FBdv:00005369
+      - RO:0002490 some (FBdv:00018001 some FBdv:00005369)
   - label: Larva
     classes:
       - RO:0002131 some FBbt:00001727
   - label: Adult
     classes: 
       - RO:0002131 some FBbt:00003004
+      - RO:0002490 some FBdv:00005369
+      - RO:0002490 some (FBdv:00018001 some FBdv:00005369)
 curie_map:
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
