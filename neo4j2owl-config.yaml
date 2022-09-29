@@ -33,12 +33,6 @@ property_mapping:
  
 neo_node_labelling:
   - classes:
-      - FBcv:0003023
-    label: DataSet
-  - classes:
-      - FBcv:0003024
-    label: Sample
-  - classes:
       - FBbt:00005106
     label: Neuron
   - classes:
@@ -111,9 +105,6 @@ neo_node_labelling:
   - classes:
       - FBbt:00007683
     label: Clone
-  - classes:
-      - FBcv:0009003
-    label: Cluster
   - classes:
       - FBbt:00005146
     label: Neuroblast
