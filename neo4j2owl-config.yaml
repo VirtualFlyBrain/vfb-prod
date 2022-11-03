@@ -163,6 +163,7 @@ neo_node_labelling:
     classes:
       - RO:0002131 some FBbt:00005093
       - FBbt:00005155
+      - FBbt:00005146
   - label: Larva
     classes:
       - RO:0002131 some FBbt:00001727
