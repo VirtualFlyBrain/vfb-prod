@@ -86,7 +86,7 @@ neo_node_labelling:
     label: Motor_neuron
   - classes:
       - FBbt:00004101
-    label: Peptidergic_neuron
+    label: Peptidergic
   - classes:
       - FBbt:00005099
     label: Neuron_projection_bundle
@@ -150,6 +150,12 @@ neo_node_labelling:
   - classes:
       - FBbt:00005133
     label: Serotonergic
+  - classes:
+      - FBbt:00007367
+    label: Histaminergic
+  - classes:
+      - FBbt:00100397
+    label: Tyraminergic
   - classes:
       - VFBext:0000004
     label: Expression_pattern_fragment
