@@ -10,7 +10,7 @@ ENV NEO4J_dbms_security_procedures_unrestricted=ebi.spot.neo4j2owl.*,apoc.*
 RUN apk update && apk add tar gzip curl wget
 
 COPY loadKB.sh /opt/VFB/
-ADD neo4j2owl.jar /var/lib/neo4j/plugins/neo4j2owl.jar 
+ADD https://github.com/VirtualFlyBrain/neo4j2owl/releases/download/1.1.26-PRE/neo4j2owl.jar /var/lib/neo4j/plugins/neo4j2owl.jar 
 
 ###### APOC TOOLS ######
 ENV APOC_VERSION=3.3.0.1
