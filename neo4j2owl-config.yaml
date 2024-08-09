@@ -124,6 +124,7 @@ neo_node_labelling:
     label: Neuromere
   - classes:
       - FBbt:00005074
+      - FBbt:00058111
     label: Muscle
   - label: Nervous_system
     classes:
