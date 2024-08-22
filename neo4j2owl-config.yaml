@@ -38,18 +38,55 @@ neo_node_labelling:
   - classes:
       - FBbt:00005124
     label: Sensory_neuron
+  - label: Chemosensory_system
+    classes:
+      - FBbt:00007689
+      - BFO:0000050 some FBbt:00007689
+  - label: Olfactory_system
+    classes:
+      - FBbt:00007688
+      - BFO:0000050 some FBbt:00007688
+  - label: Gustatory_system
+    classes:
+      - FBbt:00007690
+      - BFO:0000050 some FBbt:00007690
+  - label: Hygrosensory_system
+    classes:
+      - FBbt:00110660
+      - BFO:0000050 some FBbt:00110660
+  - label: Thermosensory_system
+    classes:
+      - FBbt:00007691
+      - BFO:0000050 some FBbt:00007691
+  - label: Visual_system
+    classes:
+      - FBbt:00047735
+      - BFO:0000050 some FBbt:00047735
+  - label: Mechanosensory_system
+    classes:
+      - FBbt:00007687
+      - BFO:0000050 some FBbt:00007687
+  - label: Nociceptive_system
+    classes:
+      - FBbt:00052155
+      - BFO:0000050 some FBbt:00052155
+  - label: Proprioceptive_system
+    classes:
+      - FBbt:00052154
+      - BFO:0000050 some FBbt:00052154
+  - label: Auditory_system
+    classes:
+      - FBbt:00007685
+      - BFO:0000050 some FBbt:00007685
   - classes:
       - FBbt:00005155
     label: Sense_organ
-  - classes:
-      - FBbt:00005155
-    label: Nervous_system
   - classes:
       - FBbt:00005123
     label: Motor_neuron
   - classes:
       - FBbt:00004101
-    label: Peptidergic_neuron
+    label: Peptidergic
   - classes:
       - FBbt:00005099
     label: Neuron_projection_bundle
@@ -78,7 +115,7 @@ neo_node_labelling:
       - FBbt:00005149
     label: GMC
   - classes:
-      - FBbt:10000000
+      - CARO:0000000
     label: Anatomy
   - classes:
       - FBbt:00007002
@@ -117,6 +154,12 @@ neo_node_labelling:
       - FBbt:00005133
     label: Serotonergic
   - classes:
+      - FBbt:00007367
+    label: Histaminergic
+  - classes:
+      - FBbt:00100397
+    label: Tyraminergic
+  - classes:
       - VFBext:0000004
     label: Expression_pattern_fragment
   - classes:
@@ -130,12 +173,17 @@ neo_node_labelling:
     classes:
       - RO:0002131 some FBbt:00005093
       - FBbt:00005155
+      - FBbt:00005146
   - label: Larva
     classes:
       - RO:0002131 some FBbt:00001727
+      - RO:0002490 some FBdv:00005336
+      - RO:0002490 some (FBdv:00018001 some FBdv:00005336)
   - label: Adult
     classes: 
       - RO:0002131 some FBbt:00003004
+      - RO:0002490 some FBdv:00005369
+      - RO:0002490 some (FBdv:00018001 some FBdv:00005369)
 curie_map:
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
@@ -144,6 +192,7 @@ curie_map:
   vfbp: http://purl.obolibrary.org/obo/fbbt/vfb#
   VFBO: http://www.virtualflybrain.org/owl/
   FBR: http://flybase.org/reports/
+  FBcv: http://purl.obolibrary.org/obo/FBcv_
   oio: http://www.geneontology.org/formats/oboInOwl#
   PMID: http://www.ncbi.nlm.nih.gov/pubmed/
   VFBc: http://virtualflybrain.org/reports/VFBc_
@@ -160,7 +209,8 @@ curie_map:
   VFB_LICENSE: http://virtualflybrain.org/licenses/
   VFB_API: http://virtualflybrain.org/apis/
   VFB_SITE: http://virtualflybrain.org/site/
-  orcid: https://orcid.org/
+  orcidS: https://orcid.org/
+  orcid: http://orcid.org/
   doi: https://doi.org/
   foaf: http://xmlns.com/foaf/0.1/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
@@ -171,6 +221,8 @@ curie_map:
   so_rel: http://purl.obolibrary.org/obo/so#
   ro_rel: http://www.obofoundry.org/ro/ro.owl#
   owl: http://www.w3.org/2002/07/owl#
+  CARO: http://purl.obolibrary.org/obo/CARO_
+  NPEx: http://www.snomedbrowser.com/Codes/Details/
 filters:
   solr: 
     exclusion:
