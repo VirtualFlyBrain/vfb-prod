@@ -18,7 +18,7 @@ ENV NEO4J_dbms_connector_http_listen__address=0.0.0.0:7474
 ENV NEO4J_dbms_connector_bolt_listen__address=0.0.0.0:7687
 ENV NEO4J_dbms_security_procedures_unrestricted=ebi.spot.neo4j2owl.*,apoc.*,gds.*
 ENV NEO4J_dbms_jvm_additional="-Dlog4j2.formatMsgNoLookups=true -Dlog4j2.disable.jmx=true"
-ENV NEO4JLABS_PLUGINS='["graph-data-science"]'
+
 
 RUN apt-get -y update && apt-get -y install tar gzip curl wget zip unzip
 
