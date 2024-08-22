@@ -5,21 +5,6 @@ sed -i s/read_only=.*/read_only=${NEOREADONLY}/ ${NEOSERCONF} && \
 echo 'Allow new neo4j2owl plugin to make changes..'
 echo 'dbms.security.procedures.unrestricted=ebi.spot.neo4j2owl.*,apoc.*,gds.*' >> ${NEOSERCONF}
 
-if [ -n "${BACKUPFILE}" ]; then
-  if [ ! -f /data/databases/neo4j/neostore ]; then
-    if [ ! -f /backup/neo4j.dump ]; then
-      echo 'Resore KB from archive backup'
-      cd /backup/
-      wget http://data.virtualflybrain.org/archive/${BACKUPFILE} 
-      cd -
-    fi
-    if [ -f /backup/neo4j.dump ]; then
-      echo 'Resore KB from given backup'
-      /var/lib/neo4j/bin/neo4j-admin load --from=/backup/neo4j.dump --verbose --force
-    fi
-  fi
-fi
-
 echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/query.log
 echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/debug.log
 echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/security.log
