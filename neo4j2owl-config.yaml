@@ -106,6 +106,9 @@ neo_node_labelling:
       - FBbt:00007683
     label: Clone
   - classes:
+      - VFBfbbt:10000005
+    label: Cluster
+  - classes:
       - FBbt:00005146
     label: Neuroblast
   - classes:
