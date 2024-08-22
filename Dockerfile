@@ -1,4 +1,4 @@
-FROM virtualflybrain/docker-vfb-neo4j:4.2.3-enterprise
+FROM virtualflybrain/docker-vfb-neo4j:4.2-enterprise
 
 VOLUME /backup
 
