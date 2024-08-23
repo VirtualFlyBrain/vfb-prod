@@ -30,14 +30,14 @@ property_mapping:
       - "http://purl.obolibrary.org/obo/so#overlaps"
       - "http://purl.obolibrary.org/obo/RO_0002131"
     id: overlaps
- 
+
 neo_node_labelling:
-  - classes:
+  - label: Neuron
+    classes:
       - FBbt:00005106
-    label: Neuron
-  - classes:
+  - label: Sensory_neuron
+    classes:
       - FBbt:00005124
-    label: Sensory_neuron
   - label: Chemosensory_system
     classes:
       - FBbt:00007689
@@ -78,97 +78,91 @@ neo_node_labelling:
     classes:
       - FBbt:00007685
       - BFO:0000050 some FBbt:00007685
-  - classes:
+  - label: Sense_organ
+    classes:
       - FBbt:00005155
-    label: Sense_organ
-  - classes:
+  - label: Motor_neuron
+    classes:
       - FBbt:00005123
-    label: Motor_neuron
-  - classes:
+  - label: Peptidergic
+    classes:
       - FBbt:00004101
-    label: Peptidergic
-  - classes:
+  - label: Neuron_projection_bundle
+    classes:
       - FBbt:00005099
-    label: Neuron_projection_bundle
-  - classes:
+  - label: Synaptic_neuropil
+    classes:
       - FBbt:00040005
-    label: Synaptic_neuropil
-  - classes:
+  - label: Synaptic_neuropil_domain
+    classes:
       - FBbt:00040007
-    label: Synaptic_neuropil_domain
-  - classes:
+  - label: Synaptic_neuropil_subdomain
+    classes:
       - FBbt:00040006
-    label: Synaptic_neuropil_subdomain
-  - classes:
+  - label: Synaptic_neuropil_block
+    classes:
       - FBbt:00041000
-    label: Synaptic_neuropil_block
-  - classes:
+  - label: Clone
+    classes:
       - FBbt:00007683
-    label: Clone
-  - classes:
-      - VFBfbbt:10000005
-    label: Cluster
-  - classes:
+  - label: Neuroblast
+    classes:
       - FBbt:00005146
-    label: Neuroblast
-  - classes:
+  - label: GMC
+    classes:
       - FBbt:00005149
-    label: GMC
-  - classes:
+  - label: Anatomy
+    classes:
       - CARO:0000000
-    label: Anatomy
-  - classes:
+  - label: Cell
+    classes:
       - FBbt:00007002
-    label: Cell
-  - classes:
+  - label: Glial_cell
+    classes:
       - FBbt:00005144
-    label: Glial_cell
-  - classes:
+  - label: Expression_pattern
+    classes:
       - CARO:0030002
-    label: Expression_pattern
-  - classes:
+  - label: Split
+    classes:
       - VFBext:0000010
-    label: Split
-  - classes:
-      - VFBext:0000010
-    label: Expression_pattern
-  - classes:
+  - label: Ganglion
+    classes:
       - FBbt:00005137
-    label: Ganglion
-  - classes:
+  - label: Cholinergic
+    classes:
       - FBbt:00007173
-    label: Cholinergic
-  - classes:
+  - label: Glutamatergic
+    classes:
       - FBbt:00100291
-    label: Glutamatergic
-  - classes:
+  - label: GABAergic
+    classes:
       - FBbt:00007228
-    label: GABAergic
-  - classes:
+  - label: Octopaminergic
+    classes:
       - FBbt:00007364
-    label: Octopaminergic
-  - classes:
+  - label: Dopaminergic
+    classes:
       - FBbt:00005131
-    label: Dopaminergic
-  - classes:
+  - label: Serotonergic
+    classes:
       - FBbt:00005133
-    label: Serotonergic
-  - classes:
+  - label: Histaminergic
+    classes:
       - FBbt:00007367
-    label: Histaminergic
-  - classes:
+  - label: Tyraminergic
+    classes:
       - FBbt:00100397
-    label: Tyraminergic
-  - classes:
+  - label: Expression_pattern_fragment
+    classes:
       - VFBext:0000004
-    label: Expression_pattern_fragment
-  - classes:
+  - label: Neuromere
+    classes:
       - FBbt:00005140
-    label: Neuromere
-  - classes:
+  - label: Muscle
+    classes:
       - FBbt:00005074
       - FBbt:00058111
-    label: Muscle
   - label: Nervous_system
     classes:
       - RO:0002131 some FBbt:00005093
@@ -184,6 +178,1139 @@ neo_node_labelling:
       - RO:0002131 some FBbt:00003004
       - RO:0002490 some FBdv:00005369
       - RO:0002490 some (FBdv:00018001 some FBdv:00005369)
+  - label: lineage_MBp
+    classes:
+      - FBbt:00007113
+      - RO:0002202 some FBbt:00007113
+  - label: lineage_VPNd1
+    classes:
+      - FBbt:00049153
+      - RO:0002202 some FBbt:00049153
+  - label: lineage_VLPl&p1
+    classes:
+      - FBbt:00049157
+      - RO:0002202 some FBbt:00049157
+  - label: lineage_VLPa1
+    classes:
+      - FBbt:00049159
+      - RO:0002202 some FBbt:00049159
+  - label: lineage_VLPp&l1
+    classes:
+      - FBbt:00049161
+      - RO:0002202 some FBbt:00049161
+  - label: lineage_SMPad1
+    classes:
+      - FBbt:00049463
+      - RO:0002202 some FBbt:00049463
+  - label: lineage_SLPpl3
+    classes:
+      - FBbt:00050006
+      - RO:0002202 some FBbt:00050006
+  - label: lineage_VPNl&d1
+    classes:
+      - FBbt:00050012
+      - RO:0002202 some FBbt:00050012
+  - label: lineage_DM1
+    classes:
+      - FBbt:00050018
+      - RO:0002202 some FBbt:00050018
+  - label: lineage_ALv2
+    classes:
+      - FBbt:00050035
+      - RO:0002202 some FBbt:00050035
+  - label: lineage_ALlv1
+    classes:
+      - FBbt:00050038
+      - RO:0002202 some FBbt:00050038
+  - label: lineage_SLPav3
+    classes:
+      - FBbt:00050056
+      - RO:0002202 some FBbt:00050056
+  - label: lineage_DM5
+    classes:
+      - FBbt:00050059
+      - RO:0002202 some FBbt:00050059
+  - label: lineage_SLPpl2
+    classes:
+      - FBbt:00050068
+      - RO:0002202 some FBbt:00050068
+  - label: lineage_DM3
+    classes:
+      - FBbt:00050100
+      - RO:0002202 some FBbt:00050100
+  - label: lineage_VLPl1
+    classes:
+      - FBbt:00050103
+      - RO:0002202 some FBbt:00050103
+  - label: lineage_VESa1
+    classes:
+      - FBbt:00050118
+      - RO:0002202 some FBbt:00050118
+  - label: lineage_DM2
+    classes:
+      - FBbt:00050121
+      - RO:0002202 some FBbt:00050121
+  - label: lineage_EBa1
+    classes:
+      - FBbt:00050136
+      - RO:0002202 some FBbt:00050136
+  - label: lineage_DM6
+    classes:
+      - FBbt:00050142
+      - RO:0002202 some FBbt:00050142
+  - label: lineage_SLPal4
+    classes:
+      - FBbt:00050154
+      - RO:0002202 some FBbt:00050154
+  - label: lineage_LALv1
+    classes:
+      - FBbt:00050166
+      - RO:0002202 some FBbt:00050166
+  - label: lineage_PBp1
+    classes:
+      - FBbt:00050169
+      - RO:0002202 some FBbt:00050169
+  - label: lineage_SLPal5
+    classes:
+      - FBbt:00050175
+      - RO:0002202 some FBbt:00050175
+  - label: lineage_SMPad2
+    classes:
+      - FBbt:00050201
+      - RO:0002202 some FBbt:00050201
+  - label: lineage_PSp1
+    classes:
+      - FBbt:00050213
+      - RO:0002202 some FBbt:00050213
+  - label: lineage_VPNp1
+    classes:
+      - FBbt:00050249
+      - RO:0002202 some FBbt:00050249
+  - label: lineage_DM4
+    classes:
+      - FBbt:00050252
+      - RO:0002202 some FBbt:00050252
+  - label: lineage_LHl3
+    classes:
+      - FBbt:00050255
+      - RO:0002202 some FBbt:00050255
+  - label: lineage_MBp1
+    classes:
+      - FBbt:00050270
+      - RO:0002202 some FBbt:00050270
+  - label: lineage_LHp3
+    classes:
+      - FBbt:00052820
+      - RO:0002202 some FBbt:00052820
+  - label: lineage_ALad1
+    classes:
+      - FBbt:00067346
+      - RO:0002202 some FBbt:00067346
+  - label: lineage_ALl1
+    classes:
+      - FBbt:00067347
+      - RO:0002202 some FBbt:00067347
+  - label: lineage_ALv1
+    classes:
+      - FBbt:00067348
+      - RO:0002202 some FBbt:00067348
+  - label: lineage_SMPad3
+    classes:
+      - FBbt:00100540
+      - RO:0002202 some FBbt:00100540
+  - label: lineage_VLPa2
+    classes:
+      - FBbt:00100543
+      - RO:0002202 some FBbt:00100543
+  - label: lineage_AOTUv3
+    classes:
+      - FBbt:00100545
+      - RO:0002202 some FBbt:00100545
+  - label: lineage_AOTUv4
+    classes:
+      - FBbt:00100546
+      - RO:0002202 some FBbt:00100546
+  - label: lineage_AOTUv2
+    classes:
+      - FBbt:00100547
+      - RO:0002202 some FBbt:00100547
+  - label: lineage_CREa2
+    classes:
+      - FBbt:00100548
+      - RO:0002202 some FBbt:00100548
+  - label: lineage_AOTUv1
+    classes:
+      - FBbt:00100549
+      - RO:0002202 some FBbt:00100549
+  - label: lineage_WEDd1
+    classes:
+      - FBbt:00100550
+      - RO:0002202 some FBbt:00100550
+  - label: lineage_CREa1
+    classes:
+      - FBbt:00100551
+      - RO:0002202 some FBbt:00100551
+  - label: lineage_PSa1
+    classes:
+      - FBbt:00100553
+      - RO:0002202 some FBbt:00100553
+  - label: lineage_FLAa2
+    classes:
+      - FBbt:00100555
+      - RO:0002202 some FBbt:00100555
+  - label: lineage_FLAa3
+    classes:
+      - FBbt:00100556
+      - RO:0002202 some FBbt:00100556
+  - label: lineage_FLAa1
+    classes:
+      - FBbt:00100560
+      - RO:0002202 some FBbt:00100560
+  - label: lineage_VESa2
+    classes:
+      - FBbt:00100563
+      - RO:0002202 some FBbt:00100563
+  - label: lineage_LALa1
+    classes:
+      - FBbt:00100564
+      - RO:0002202 some FBbt:00100564
+  - label: lineage_WEDa2
+    classes:
+      - FBbt:00100565
+      - RO:0002202 some FBbt:00100565
+  - label: lineage_WEDa1
+    classes:
+      - FBbt:00100566
+      - RO:0002202 some FBbt:00100566
+  - label: lineage_PSp2
+    classes:
+      - FBbt:00100571
+      - RO:0002202 some FBbt:00100571
+  - label: lineage_SMPpv1
+    classes:
+      - FBbt:00100577
+      - RO:0002202 some FBbt:00100577
+  - label: lineage_SIPp1
+    classes:
+      - FBbt:00100578
+      - RO:0002202 some FBbt:00100578
+  - label: lineage_VLPp2
+    classes:
+      - FBbt:00100579
+      - RO:0002202 some FBbt:00100579
+  - label: lineage_SMPpm1
+    classes:
+      - FBbt:00100584
+      - RO:0002202 some FBbt:00100584
+  - label: lineage_PSp3
+    classes:
+      - FBbt:00100586
+      - RO:0002202 some FBbt:00100586
+  - label: lineage_VLPd1
+    classes:
+      - FBbt:00100590
+      - RO:0002202 some FBbt:00100590
+  - label: lineage_SLPal1
+    classes:
+      - FBbt:00100591
+      - RO:0002202 some FBbt:00100591
+  - label: lineage_LHl2
+    classes:
+      - FBbt:00100592
+      - RO:0002202 some FBbt:00100592
+  - label: lineage_SLPal2
+    classes:
+      - FBbt:00100593
+      - RO:0002202 some FBbt:00100593
+  - label: lineage_LHd1
+    classes:
+      - FBbt:00100594
+      - RO:0002202 some FBbt:00100594
+  - label: lineage_SMPpd1
+    classes:
+      - FBbt:00100595
+      - RO:0002202 some FBbt:00100595
+  - label: lineage_SLPpm2
+    classes:
+      - FBbt:00100596
+      - RO:0002202 some FBbt:00100596
+  - label: lineage_SLPpm3
+    classes:
+      - FBbt:00100597
+      - RO:0002202 some FBbt:00100597
+  - label: lineage_CLp1
+    classes:
+      - FBbt:00100598
+      - RO:0002202 some FBbt:00100598
+  - label: lineage_SMPp&v1
+    classes:
+      - FBbt:00100599
+      - RO:0002202 some FBbt:00100599
+  - label: lineage_SLPpl1
+    classes:
+      - FBbt:00100600
+      - RO:0002202 some FBbt:00100600
+  - label: lineage_VLPd&p1
+    classes:
+      - FBbt:00100601
+      - RO:0002202 some FBbt:00100601
+  - label: lineage_SLPad1
+    classes:
+      - FBbt:00100602
+      - RO:0002202 some FBbt:00100602
+  - label: lineage_LHp2
+    classes:
+      - FBbt:00100603
+      - RO:0002202 some FBbt:00100603
+  - label: lineage_SLPp&v1
+    classes:
+      - FBbt:00100604
+      - RO:0002202 some FBbt:00100604
+  - label: lineage_SLPpm1
+    classes:
+      - FBbt:00100605
+      - RO:0002202 some FBbt:00100605
+  - label: lineage_LHd2
+    classes:
+      - FBbt:00100606
+      - RO:0002202 some FBbt:00100606
+  - label: lineage_SMPpv2
+    classes:
+      - FBbt:00100608
+      - RO:0002202 some FBbt:00100608
+  - label: lineage_DL1
+    classes:
+      - FBbt:00100609
+      - RO:0002202 some FBbt:00100609
+  - label: lineage_DL2
+    classes:
+      - FBbt:00100610
+      - RO:0002202 some FBbt:00100610
+  - label: lineage_CLp2
+    classes:
+      - FBbt:00100611
+      - RO:0002202 some FBbt:00100611
+  - label: lineage_VLPl&d1
+    classes:
+      - FBbt:00100612
+      - RO:0002202 some FBbt:00100612
+  - label: lineage_VLPl2
+    classes:
+      - FBbt:00100613
+      - RO:0002202 some FBbt:00100613
+  - label: lineage_LHa1
+    classes:
+      - FBbt:00100614
+      - RO:0002202 some FBbt:00100614
+  - label: lineage_SIPa1
+    classes:
+      - FBbt:00100615
+      - RO:0002202 some FBbt:00100615
+  - label: lineage_SLPal3
+    classes:
+      - FBbt:00100616
+      - RO:0002202 some FBbt:00100616
+  - label: lineage_SLPav1
+    classes:
+      - FBbt:00100618
+      - RO:0002202 some FBbt:00100618
+  - label: lineage_SLPa&l1
+    classes:
+      - FBbt:00100619
+      - RO:0002202 some FBbt:00100619
+  - label: lineage_LHl4
+    classes:
+      - FBbt:00100620
+      - RO:0002202 some FBbt:00100620
+  - label: lineage_SLPav2
+    classes:
+      - FBbt:00100621
+      - RO:0002202 some FBbt:00100621
+  - label: lineage_VLPl4
+    classes:
+      - FBbt:00100622
+      - RO:0002202 some FBbt:00100622
+  - label: lineage_LHl1
+    classes:
+      - FBbt:00100623
+      - RO:0002202 some FBbt:00100623
+  - label: lineage_VPNp&v1
+    classes:
+      - FBbt:00100625
+      - RO:0002202 some FBbt:00100625
+  - label: lineage_VLPp1
+    classes:
+      - FBbt:00100626
+      - RO:0002202 some FBbt:00100626
+  - label: lineage_LHp1
+    classes:
+      - FBbt:00100628
+      - RO:0002202 some FBbt:00100628
+  - label: lineage_LHa2
+    classes:
+      - FBbt:00100630
+      - RO:0002202 some FBbt:00100630
+  - label: lineage_LHa3
+    classes:
+      - FBbt:00100631
+      - RO:0002202 some FBbt:00100631
+  - label: lineage_VLPl&p2
+    classes:
+      - FBbt:00100633
+      - RO:0002202 some FBbt:00100633
+  - label: lineage_CREl1
+    classes:
+      - FBbt:00100645
+      - RO:0002202 some FBbt:00100645
+  - label: lineage_WEDd2
+    classes:
+      - FBbt:00100735
+      - RO:0002202 some FBbt:00100735
+  - label: lineage_LHa4
+    classes:
+      - FBbt:00110359
+      - RO:0002202 some FBbt:00110359
+  - label: lineage_SLPpm4
+    classes:
+      - FBbt:00110368
+      - RO:0002202 some FBbt:00110368
+  - label: lineage_SMPpd2
+    classes:
+      - FBbt:00110374
+      - RO:0002202 some FBbt:00110374
+  - label: lineage_VPNd2
+    classes:
+      - FBbt:00110383
+      - RO:0002202 some FBbt:00110383
+  - label: lineage_VPNd3
+    classes:
+      - FBbt:00110386
+      - RO:0002202 some FBbt:00110386
+  - label: lineage_VPNd4
+    classes:
+      - FBbt:00110389
+      - RO:0002202 some FBbt:00110389
+  - label: lineage_VPNp2
+    classes:
+      - FBbt:00110392
+      - RO:0002202 some FBbt:00110392
+  - label: lineage_VPNp3
+    classes:
+      - FBbt:00110395
+      - RO:0002202 some FBbt:00110395
+  - label: lineage_VPNp4
+    classes:
+      - FBbt:00110398
+      - RO:0002202 some FBbt:00110398
+  - label: lineage_VPNv1
+    classes:
+      - FBbt:00110401
+      - RO:0002202 some FBbt:00110401
+  - label: lineage_VPNv2
+    classes:
+      - FBbt:00110404
+      - RO:0002202 some FBbt:00110404
+  - label: lineage_VPNv3
+    classes:
+      - FBbt:00110407
+      - RO:0002202 some FBbt:00110407
+  - label: lineage_SMPad4
+    classes:
+      - FBbt:00110411
+      - RO:0002202 some FBbt:00110411
+  - label: lineage_MBp2
+    classes:
+      - FBbt:00110558
+      - RO:0002202 some FBbt:00110558
+  - label: lineage_MBp3
+    classes:
+      - FBbt:00110561
+      - RO:0002202 some FBbt:00110561
+  - label: lineage_MBp4
+    classes:
+      - FBbt:00110564
+      - RO:0002202 some FBbt:00110564
+  - label: lineage_BLD6
+    classes:
+      - FBbt:00049153
+      - RO:0002202 some FBbt:00049153
+  - label: lineage_BLVa4
+    classes:
+      - FBbt:00049155
+      - RO:0002202 some FBbt:00049155
+  - label: lineage_BLVp2
+    classes:
+      - FBbt:00049157
+      - RO:0002202 some FBbt:00049157
+  - label: lineage_DALl2
+    classes:
+      - FBbt:00049159
+      - RO:0002202 some FBbt:00049159
+  - label: lineage_DPLpv
+    classes:
+      - FBbt:00049161
+      - RO:0002202 some FBbt:00049161
+  - label: lineage_BLVa2c
+    classes:
+      - FBbt:00050006
+      - RO:0002202 some FBbt:00050006
+  - label: lineage_BLAl2
+    classes:
+      - FBbt:00050012
+      - RO:0002202 some FBbt:00050012
+  - label: lineage_DPMm1
+    classes:
+      - FBbt:00050018
+      - RO:0002202 some FBbt:00050018
+  - label: lineage_BAla2
+    classes:
+      - FBbt:00050035
+      - RO:0002202 some FBbt:00050035
+  - label: lineage_BAlp4
+    classes:
+      - FBbt:00050038
+      - RO:0002202 some FBbt:00050038
+  - label: lineage_BLVa2a
+    classes:
+      - FBbt:00050056
+      - RO:0002202 some FBbt:00050056
+  - label: lineage_CM1
+    classes:
+      - FBbt:00050059
+      - RO:0002202 some FBbt:00050059
+  - label: lineage_CP6
+    classes:
+      - FBbt:00050068
+      - RO:0002202 some FBbt:00050068
+  - label: lineage_DPMpm2
+    classes:
+      - FBbt:00050100
+      - RO:0002202 some FBbt:00050100
+  - label: lineage_BAla3
+    classes:
+      - FBbt:00050118
+      - RO:0002202 some FBbt:00050118
+  - label: lineage_DPMpm1
+    classes:
+      - FBbt:00050121
+      - RO:0002202 some FBbt:00050121
+  - label: lineage_DALv2
+    classes:
+      - FBbt:00050136
+      - RO:0002202 some FBbt:00050136
+  - label: lineage_CM3
+    classes:
+      - FBbt:00050142
+      - RO:0002202 some FBbt:00050142
+  - label: lineage_BAmv1
+    classes:
+      - FBbt:00050166
+      - RO:0002202 some FBbt:00050166
+  - label: lineage_CM6
+    classes:
+      - FBbt:00050169
+      - RO:0002202 some FBbt:00050169
+  - label: lineage_BLAd5
+    classes:
+      - FBbt:00050175
+      - RO:0002202 some FBbt:00050175
+  - label: lineage_DPMl2
+    classes:
+      - FBbt:00050213
+      - RO:0002202 some FBbt:00050213
+  - label: lineage_BLD5
+    classes:
+      - FBbt:00050249
+      - RO:0002202 some FBbt:00050249
+  - label: lineage_CM4
+    classes:
+      - FBbt:00050252
+      - RO:0002202 some FBbt:00050252
+  - label: lineage_BLVa2b
+    classes:
+      - FBbt:00050255
+      - RO:0002202 some FBbt:00050255
+  - label: lineage_CP5
+    classes:
+      - FBbt:00052820
+      - RO:0002202 some FBbt:00052820
+  - label: lineage_BAmv3
+    classes:
+      - FBbt:00067346
+      - RO:0002202 some FBbt:00067346
+  - label: lineage_BAlc
+    classes:
+      - FBbt:00067347
+      - RO:0002202 some FBbt:00067347
+  - label: lineage_BAla1
+    classes:
+      - FBbt:00067348
+      - RO:0002202 some FBbt:00067348
+  - label: lineage_DAMv1
+    classes:
+      - FBbt:00100498
+      - RO:0002202 some FBbt:00100498
+  - label: lineage_DAMv2
+    classes:
+      - FBbt:00100512
+      - RO:0002202 some FBbt:00100512
+  - label: lineage_DAMd1
+    classes:
+      - FBbt:00100540
+      - RO:0002202 some FBbt:00100540
+  - label: lineage_DAMd2
+    classes:
+      - FBbt:00100541
+      - RO:0002202 some FBbt:00100541
+  - label: lineage_DAMd3
+    classes:
+      - FBbt:00100542
+      - RO:0002202 some FBbt:00100542
+  - label: lineage_DALv1
+    classes:
+      - FBbt:00100543
+      - RO:0002202 some FBbt:00100543
+  - label: lineage_DALcl1
+    classes:
+      - FBbt:00100545
+      - RO:0002202 some FBbt:00100545
+  - label: lineage_DALcl2
+    classes:
+      - FBbt:00100546
+      - RO:0002202 some FBbt:00100546
+  - label: lineage_DALl1
+    classes:
+      - FBbt:00100547
+      - RO:0002202 some FBbt:00100547
+  - label: lineage_DALcm1
+    classes:
+      - FBbt:00100548
+      - RO:0002202 some FBbt:00100548
+  - label: lineage_DALcm2
+    classes:
+      - FBbt:00100549
+      - RO:0002202 some FBbt:00100549
+  - label: lineage_DALd
+    classes:
+      - FBbt:00100550
+      - RO:0002202 some FBbt:00100550
+  - label: lineage_BAmd1
+    classes:
+      - FBbt:00100551
+      - RO:0002202 some FBbt:00100551
+  - label: lineage_BAmv2
+    classes:
+      - FBbt:00100553
+      - RO:0002202 some FBbt:00100553
+  - label: lineage_BAmas1
+    classes:
+      - FBbt:00100555
+      - RO:0002202 some FBbt:00100555
+  - label: lineage_BAmas2
+    classes:
+      - FBbt:00100556
+      - RO:0002202 some FBbt:00100556
+  - label: lineage_BAla4
+    classes:
+      - FBbt:00100560
+      - RO:0002202 some FBbt:00100560
+  - label: lineage_BAlp1
+    classes:
+      - FBbt:00100563
+      - RO:0002202 some FBbt:00100563
+  - label: lineage_BAlp2
+    classes:
+      - FBbt:00100564
+      - RO:0002202 some FBbt:00100564
+  - label: lineage_BAlp3
+    classes:
+      - FBbt:00100565
+      - RO:0002202 some FBbt:00100565
+  - label: lineage_BAlv
+    classes:
+      - FBbt:00100566
+      - RO:0002202 some FBbt:00100566
+  - label: lineage_CM2
+    classes:
+      - FBbt:00100568
+      - RO:0002202 some FBbt:00100568
+  - label: lineage_CM5
+    classes:
+      - FBbt:00100571
+      - RO:0002202 some FBbt:00100571
+  - label: lineage_TRdm
+    classes:
+      - FBbt:00100572
+      - RO:0002202 some FBbt:00100572
+  - label: lineage_TRdl
+    classes:
+      - FBbt:00100573
+      - RO:0002202 some FBbt:00100573
+  - label: lineage_TRvm
+    classes:
+      - FBbt:00100574
+      - RO:0002202 some FBbt:00100574
+  - label: lineage_TRvl
+    classes:
+      - FBbt:00100575
+      - RO:0002202 some FBbt:00100575
+  - label: lineage_TRco
+    classes:
+      - FBbt:00100576
+      - RO:0002202 some FBbt:00100576
+  - label: lineage_DPMpl1
+    classes:
+      - FBbt:00100577
+      - RO:0002202 some FBbt:00100577
+  - label: lineage_DPMpl2
+    classes:
+      - FBbt:00100578
+      - RO:0002202 some FBbt:00100578
+  - label: lineage_DPMpl3
+    classes:
+      - FBbt:00100579
+      - RO:0002202 some FBbt:00100579
+  - label: lineage_DPMm2
+    classes:
+      - FBbt:00100584
+      - RO:0002202 some FBbt:00100584
+  - label: lineage_DPMm3
+    classes:
+      - FBbt:00100585
+      - RO:0002202 some FBbt:00100585
+  - label: lineage_DPMl1
+    classes:
+      - FBbt:00100586
+      - RO:0002202 some FBbt:00100586
+  - label: lineage_DPLam
+    classes:
+      - FBbt:00100590
+      - RO:0002202 some FBbt:00100590
+  - label: lineage_DPLal1
+    classes:
+      - FBbt:00100591
+      - RO:0002202 some FBbt:00100591
+  - label: lineage_DPLal2
+    classes:
+      - FBbt:00100592
+      - RO:0002202 some FBbt:00100592
+  - label: lineage_DPLal3
+    classes:
+      - FBbt:00100593
+      - RO:0002202 some FBbt:00100593
+  - label: lineage_DPLd
+    classes:
+      - FBbt:00100594
+      - RO:0002202 some FBbt:00100594
+  - label: lineage_DPLc1
+    classes:
+      - FBbt:00100595
+      - RO:0002202 some FBbt:00100595
+  - label: lineage_DPLc2
+    classes:
+      - FBbt:00100596
+      - RO:0002202 some FBbt:00100596
+  - label: lineage_DPLc3
+    classes:
+      - FBbt:00100597
+      - RO:0002202 some FBbt:00100597
+  - label: lineage_DPLc4
+    classes:
+      - FBbt:00100598
+      - RO:0002202 some FBbt:00100598
+  - label: lineage_DPLc5
+    classes:
+      - FBbt:00100599
+      - RO:0002202 some FBbt:00100599
+  - label: lineage_DPLl1
+    classes:
+      - FBbt:00100600
+      - RO:0002202 some FBbt:00100600
+  - label: lineage_DPLl2
+    classes:
+      - FBbt:00100601
+      - RO:0002202 some FBbt:00100601
+  - label: lineage_DPLl3
+    classes:
+      - FBbt:00100602
+      - RO:0002202 some FBbt:00100602
+  - label: lineage_DPLp1
+    classes:
+      - FBbt:00100603
+      - RO:0002202 some FBbt:00100603
+  - label: lineage_DPLp2
+    classes:
+      - FBbt:00100604
+      - RO:0002202 some FBbt:00100604
+  - label: lineage_DPLm1
+    classes:
+      - FBbt:00100605
+      - RO:0002202 some FBbt:00100605
+  - label: lineage_DPLm2
+    classes:
+      - FBbt:00100606
+      - RO:0002202 some FBbt:00100606
+  - label: lineage_DPLcv
+    classes:
+      - FBbt:00100607
+      - RO:0002202 some FBbt:00100607
+  - label: lineage_CP1
+    classes:
+      - FBbt:00100608
+      - RO:0002202 some FBbt:00100608
+  - label: lineage_CP2
+    classes:
+      - FBbt:00100609
+      - RO:0002202 some FBbt:00100609
+  - label: lineage_CP3
+    classes:
+      - FBbt:00100610
+      - RO:0002202 some FBbt:00100610
+  - label: lineage_CP4
+    classes:
+      - FBbt:00100611
+      - RO:0002202 some FBbt:00100611
+  - label: lineage_BLAv1
+    classes:
+      - FBbt:00100612
+      - RO:0002202 some FBbt:00100612
+  - label: lineage_BLAv2
+    classes:
+      - FBbt:00100613
+      - RO:0002202 some FBbt:00100613
+  - label: lineage_BLAd1
+    classes:
+      - FBbt:00100614
+      - RO:0002202 some FBbt:00100614
+  - label: lineage_BLAd2
+    classes:
+      - FBbt:00100615
+      - RO:0002202 some FBbt:00100615
+  - label: lineage_BLAd3
+    classes:
+      - FBbt:00100616
+      - RO:0002202 some FBbt:00100616
+  - label: lineage_BLAd4
+    classes:
+      - FBbt:00100617
+      - RO:0002202 some FBbt:00100617
+  - label: lineage_BLAl1
+    classes:
+      - FBbt:00100618
+      - RO:0002202 some FBbt:00100618
+  - label: lineage_BLAvm
+    classes:
+      - FBbt:00100619
+      - RO:0002202 some FBbt:00100619
+  - label: lineage_BLD1
+    classes:
+      - FBbt:00100620
+      - RO:0002202 some FBbt:00100620
+  - label: lineage_BLD2
+    classes:
+      - FBbt:00100621
+      - RO:0002202 some FBbt:00100621
+  - label: lineage_BLD3
+    classes:
+      - FBbt:00100622
+      - RO:0002202 some FBbt:00100622
+  - label: lineage_BLD4
+    classes:
+      - FBbt:00100623
+      - RO:0002202 some FBbt:00100623
+  - label: lineage_BLP1
+    classes:
+      - FBbt:00100625
+      - RO:0002202 some FBbt:00100625
+  - label: lineage_BLP2
+    classes:
+      - FBbt:00100626
+      - RO:0002202 some FBbt:00100626
+  - label: lineage_BLP3
+    classes:
+      - FBbt:00100627
+      - RO:0002202 some FBbt:00100627
+  - label: lineage_BLP4
+    classes:
+      - FBbt:00100628
+      - RO:0002202 some FBbt:00100628
+  - label: lineage_BLP5
+    classes:
+      - FBbt:00100629
+      - RO:0002202 some FBbt:00100629
+  - label: lineage_BLVa1
+    classes:
+      - FBbt:00100630
+      - RO:0002202 some FBbt:00100630
+  - label: lineage_BLVa2
+    classes:
+      - FBbt:00100631
+      - RO:0002202 some FBbt:00100631
+  - label: lineage_BLVa3
+    classes:
+      - FBbt:00100632
+      - RO:0002202 some FBbt:00100632
+  - label: lineage_BLVp1
+    classes:
+      - FBbt:00100633
+      - RO:0002202 some FBbt:00100633
+  - label: lineage_DALv3
+    classes:
+      - FBbt:00100645
+      - RO:0002202 some FBbt:00100645
+  - label: lineage_BAmd2
+    classes:
+      - FBbt:00100735
+      - RO:0002202 some FBbt:00100735
+  - label: lineage_DPLc6
+    classes:
+      - FBbt:00110374
+      - RO:0002202 some FBbt:00110374
+  - label: lineage_NB1-1
+    classes:
+      - FBbt:00001371
+      - RO:0002202 some FBbt:00001371
+  - label: lineage_NB2-5
+    classes:
+      - FBbt:00001374
+      - RO:0002202 some FBbt:00001374
+  - label: lineage_NB3-5
+    classes:
+      - FBbt:00001375
+      - RO:0002202 some FBbt:00001375
+  - label: lineage_NB5-2
+    classes:
+      - FBbt:00001376
+      - RO:0002202 some FBbt:00001376
+  - label: lineage_NB5-6
+    classes:
+      - FBbt:00001377
+      - RO:0002202 some FBbt:00001377
+  - label: lineage_NB7-1
+    classes:
+      - FBbt:00001380
+      - RO:0002202 some FBbt:00001380
+  - label: lineage_NB7-4
+    classes:
+      - FBbt:00001381
+      - RO:0002202 some FBbt:00001381
+  - label: lineage_NB1-2
+    classes:
+      - FBbt:00001384
+      - RO:0002202 some FBbt:00001384
+  - label: lineage_NB2-2
+    classes:
+      - FBbt:00001385
+      - RO:0002202 some FBbt:00001385
+  - label: lineage_NB3-2
+    classes:
+      - FBbt:00001388
+      - RO:0002202 some FBbt:00001388
+  - label: lineage_NB4-2
+    classes:
+      - FBbt:00001389
+      - RO:0002202 some FBbt:00001389
+  - label: lineage_NB5-3
+    classes:
+      - FBbt:00001390
+      - RO:0002202 some FBbt:00001390
+  - label: lineage_NB6-2
+    classes:
+      - FBbt:00001391
+      - RO:0002202 some FBbt:00001391
+  - label: lineage_NB7-2
+    classes:
+      - FBbt:00001392
+      - RO:0002202 some FBbt:00001392
+  - label: lineage_NB3-1
+    classes:
+      - FBbt:00001394
+      - RO:0002202 some FBbt:00001394
+  - label: lineage_NB4-1
+    classes:
+      - FBbt:00001397
+      - RO:0002202 some FBbt:00001397
+  - label: lineage_NB6-1
+    classes:
+      - FBbt:00001398
+      - RO:0002202 some FBbt:00001398
+  - label: lineage_NB6-4
+    classes:
+      - FBbt:00001399
+      - RO:0002202 some FBbt:00001399
+  - label: lineage_NB1-3
+    classes:
+      - FBbt:00001404
+      - RO:0002202 some FBbt:00001404
+  - label: lineage_NB2-1
+    classes:
+      - FBbt:00001410
+      - RO:0002202 some FBbt:00001410
+  - label: lineage_NB2-4
+    classes:
+      - FBbt:00001411
+      - RO:0002202 some FBbt:00001411
+  - label: lineage_NB3-4
+    classes:
+      - FBbt:00001414
+      - RO:0002202 some FBbt:00001414
+  - label: lineage_NB4-4
+    classes:
+      - FBbt:00001415
+      - RO:0002202 some FBbt:00001415
+  - label: lineage_NB5-4
+    classes:
+      - FBbt:00001416
+      - RO:0002202 some FBbt:00001416
+  - label: lineage_MNB
+    classes:
+      - FBbt:00001419
+      - RO:0002202 some FBbt:00001419
+  - label: lineage_NB2-3
+    classes:
+      - FBbt:00001421
+      - RO:0002202 some FBbt:00001421
+  - label: lineage_NB3-3
+    classes:
+      - FBbt:00001422
+      - RO:0002202 some FBbt:00001422
+  - label: lineage_NB4-3
+    classes:
+      - FBbt:00001423
+      - RO:0002202 some FBbt:00001423
+  - label: lineage_NB5-1
+    classes:
+      - FBbt:00001424
+      - RO:0002202 some FBbt:00001424
+  - label: lineage_NB5-5
+    classes:
+      - FBbt:00001425
+      - RO:0002202 some FBbt:00001425
+  - label: lineage_NB7-3
+    classes:
+      - FBbt:00001426
+      - RO:0002202 some FBbt:00001426
+  - label: lineage_NB5-7
+    classes:
+      - FBbt:00111737
+      - RO:0002202 some FBbt:00111737
+  - label: lineage_16
+    classes:
+      - FBbt:00001371
+      - RO:0002202 some FBbt:00001371
+  - label: lineage_17
+    classes:
+      - FBbt:00001374
+      - RO:0002202 some FBbt:00001374
+  - label: lineage_9
+    classes:
+      - FBbt:00001375
+      - RO:0002202 some FBbt:00001375
+  - label: lineage_6
+    classes:
+      - FBbt:00001376
+      - RO:0002202 some FBbt:00001376
+  - label: lineage_3
+    classes:
+      - FBbt:00001380
+      - RO:0002202 some FBbt:00001380
+  - label: lineage_23
+    classes:
+      - FBbt:00001381
+      - RO:0002202 some FBbt:00001381
+  - label: lineage_1
+    classes:
+      - FBbt:00001384
+      - RO:0002202 some FBbt:00001384
+  - label: lineage_10
+    classes:
+      - FBbt:00001385
+      - RO:0002202 some FBbt:00001385
+  - label: lineage_7
+    classes:
+      - FBbt:00001388
+      - RO:0002202 some FBbt:00001388
+  - label: lineage_13
+    classes:
+      - FBbt:00001389
+      - RO:0002202 some FBbt:00001389
+  - label: lineage_5
+    classes:
+      - FBbt:00001390
+      - RO:0002202 some FBbt:00001390
+  - label: lineage_19
+    classes:
+      - FBbt:00001391
+      - RO:0002202 some FBbt:00001391
+  - label: lineage_11
+    classes:
+      - FBbt:00001392
+      - RO:0002202 some FBbt:00001392
+  - label: lineage_4
+    classes:
+      - FBbt:00001394
+      - RO:0002202 some FBbt:00001394
+  - label: lineage_14
+    classes:
+      - FBbt:00001397
+      - RO:0002202 some FBbt:00001397
+  - label: lineage_12
+    classes:
+      - FBbt:00001398
+      - RO:0002202 some FBbt:00001398
+  - label: lineage_2
+    classes:
+      - FBbt:00001410
+      - RO:0002202 some FBbt:00001410
+  - label: lineage_18
+    classes:
+      - FBbt:00001411
+      - RO:0002202 some FBbt:00001411
+  - label: lineage_25
+    classes:
+      - FBbt:00001414
+      - RO:0002202 some FBbt:00001414
+  - label: lineage_24
+    classes:
+      - FBbt:00001415
+      - RO:0002202 some FBbt:00001415
+  - label: lineage_22
+    classes:
+      - FBbt:00001416
+      - RO:0002202 some FBbt:00001416
+  - label: lineage_0
+    classes:
+      - FBbt:00001419
+      - RO:0002202 some FBbt:00001419
+  - label: lineage_15
+    classes:
+      - FBbt:00001421
+      - RO:0002202 some FBbt:00001421
+  - label: lineage_8
+    classes:
+      - FBbt:00001422
+      - RO:0002202 some FBbt:00001422
+  - label: lineage_21
+    classes:
+      - FBbt:00001423
+      - RO:0002202 some FBbt:00001423
+  - label: lineage_26
+    classes:
+      - FBbt:00001424
+      - RO:0002202 some FBbt:00001424
+  - label: lineage_20
+    classes:
+      - FBbt:00111737
+      - RO:0002202 some FBbt:00111737
+  - label: primary_neuron
+    classes:
+      - FBbt:00047097
+  - label: secondary_neuron
+    classes:
+      - FBbt:00047096
+  - label: Channel:
+    classes:
+        - VFBext:0000014
 curie_map:
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
@@ -200,7 +1327,6 @@ curie_map:
   VFB: http://virtualflybrain.org/reports/VFB_
   VFBi: http://virtualflybrain.org/reports/VFBi_
   VFBd: http://virtualflybrain.org/reports/
-  oio: http://www.geneontology.org/formats/oboInOwl#
   FALDO: http://biohackathon.org/resource/faldo#
   dce: http://purl.org/dc/elements/1.1/
   dcterms: http://purl.org/dc/terms/
@@ -223,8 +1349,9 @@ curie_map:
   owl: http://www.w3.org/2002/07/owl#
   CARO: http://purl.obolibrary.org/obo/CARO_
   NPEx: http://www.snomedbrowser.com/Codes/Details/
+
 filters:
-  solr: 
+  solr:
     exclusion:
       iri_prefix:
         - http://virtualflybrain.org/reports/VFBc_
