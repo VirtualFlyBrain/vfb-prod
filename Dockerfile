@@ -23,7 +23,7 @@ ENV NEO4JLABS_PLUGINS='["graph-data-science"]'
 RUN apt-get -y update && apt-get -y install tar gzip curl wget zip unzip
 
 COPY loadKB.sh /opt/VFB/
-ADD https://github.com/VirtualFlyBrain/neo4j2owl/releases/download/1.2.2-PRE/neo4j2owl.jar /var/lib/neo4j/plugins/neo4j2owl.jar 
+ADD https://github.com/VirtualFlyBrain/neo4j2owl/releases/download/1.2.3-PRE/neo4j2owl.jar /var/lib/neo4j/plugins/neo4j2owl.jar 
 
 RUN mkdir -p /opt/VFB/backup/ 
 
