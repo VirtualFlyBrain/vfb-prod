@@ -23,11 +23,8 @@ ENV NEO4J_dbms_jvm_additional="-Dlog4j2.formatMsgNoLookups=true -Dlog4j2.disable
 RUN apt-get -y update && apt-get -y install tar gzip curl wget zip unzip
 
 COPY loadKB.sh /opt/VFB/
-RUN rm -fv /plugins/*
-RUN rm -fv /var/lib/neo4j/plugins/*
-ADD https://github.com/VirtualFlyBrain/neo4j2owl/releases/download/1.2.2-PRE/neo4j2owl.jar /var/lib/neo4j/plugins/neo4j2owl.jar
-ADD https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.2.0.9/apoc-4.2.0.9-all.jar /var/lib/neo4j/plugins/apoc-4.2.0.9-all.jar
 
+ADD https://github.com/VirtualFlyBrain/neo4j2owl/releases/download/1.2.2-PRE/neo4j2owl.jar /var/lib/neo4j/plugins/neo4j2owl.jar
 
 RUN mkdir -p /opt/VFB/backup/ 
 
