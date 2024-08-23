@@ -5,9 +5,12 @@ sed -i s/read_only=.*/read_only=${NEOREADONLY}/ ${NEOSERCONF} && \
 echo 'Allow new neo4j2owl plugin to make changes..'
 echo 'dbms.security.procedures.unrestricted=ebi.spot.neo4j2owl.*,apoc.*,gds.*' >> ${NEOSERCONF}
 
-echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/query.log
-echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/debug.log
-echo -e '\nSTARTING VFB KB SERVER\n' >> /var/lib/neo4j/logs/security.log
+echo -e '\nSTARTING VFB KB SERVER QUERY LOG\n' >> /var/lib/neo4j/logs/query.log
+echo -e '\nSTARTING VFB KB SERVER DEBUG LOG\n' >> /var/lib/neo4j/logs/debug.log
+echo -e '\nSTARTING VFB KB SERVER SECURITY LOG\n' >> /var/lib/neo4j/logs/security.log
+
+ls -la /plugins/ || :
+ls -la /var/lib/neo4j/plugins/ || :
 
 chown -R neo4j.neo4j /logs || :
 chown -R neo4j.neo4j /data || :
