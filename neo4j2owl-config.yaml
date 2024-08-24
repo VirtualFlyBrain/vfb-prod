@@ -1310,7 +1310,7 @@ neo_node_labelling:
       - FBbt:00047096
   - label: Channel:
     classes:
-        - VFBext:0000014
+      - VFBext:0000014
 curie_map:
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
