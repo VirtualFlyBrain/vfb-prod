@@ -1309,8 +1309,8 @@ neo_node_labelling:
     classes:
       - FBbt:00047096
   - label: Channel:
-    iri_prefix:
-        - http://virtualflybrain.org/reports/VFBc_
+    classes:
+      - VFBext:0000014
 curie_map:
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
