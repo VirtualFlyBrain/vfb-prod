@@ -1308,7 +1308,7 @@ neo_node_labelling:
   - label: secondary_neuron
     classes:
       - FBbt:00047096
-  - label: Channel:
+  - label: Channel
     classes:
       - VFBext:0000014
 curie_map:
