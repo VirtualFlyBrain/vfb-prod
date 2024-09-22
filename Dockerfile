@@ -7,6 +7,7 @@ ENV BACKUPFILE="VFB-PDB2-v4"
 ENV NEO4J_dbms_memory_heap_maxSize=4G
 ENV NEO4J_dbms_memory_heap_initial__size=1G
 ENV NEO4J_dbms_read__only=true
+ENV NEO4J_dbms_query__cache__size=0
 ENV NEO4J_dbms_security_procedures_unrestricted=ebi.spot.neo4j2owl.*,apoc.*,gds.*
 
 RUN apt-get -y update && apt-get -y install tar gzip curl wget zip unzip
