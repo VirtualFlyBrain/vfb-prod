@@ -11,6 +11,7 @@ ENV NEO4J_dbms_security_auth__enabled=true
 ENV NEO4J_dbms_memory_heap_maxSize=4G
 ENV NEO4J_dbms_memory_heap_initial__size=1G
 ENV NEO4J_dbms_read__only=true
+ENV NEO4J_dbms_query__cache__size=0
 ENV NEO4J_dbms_default__listen__address=0.0.0.0
 ENV NEO4J_dbms_connector_http_advertised__address=0.0.0.0:7474
 ENV NEO4J_dbms_connector_bolt_advertised__address=0.0.0.0:7687
