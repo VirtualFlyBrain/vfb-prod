@@ -22,9 +22,9 @@ chmod -R 777 /import || :
 chmod -R 777 /var/lib/neo4j/plugins || :
 
 #Output the query log to docker log:
-tail -f /var/lib/neo4j/logs/query.log >/proc/1/fd/1 &
-tail -f /var/lib/neo4j/logs/debug.log >/proc/1/fd/1 &
-tail -f /var/lib/neo4j/logs/security.log >/proc/1/fd/1 &
+tail --follow=name --retry /var/lib/neo4j/logs/query.log >/proc/1/fd/1 &
+tail --follow=name --retry /var/lib/neo4j/logs/debug.log >/proc/1/fd/1 &
+tail --follow=name --retry /var/lib/neo4j/logs/security.log >/proc/1/fd/1 &
 
 sleep 4m && cypher-shell -u neo4j -p ${NEO4J_AUTH/neo4j\//} -d system 'START DATABASE neo4j' 
 exec /docker-entrypoint.sh neo4j
