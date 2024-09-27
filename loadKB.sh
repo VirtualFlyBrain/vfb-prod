@@ -34,5 +34,5 @@ chmod -R 777 /import || :
 chmod -R 777 /var/lib/neo4j/plugins || :
 
 #Output the query log to docker log:
-tail -f /var/lib/neo4j/logs/query.log >/proc/1/fd/1 &
+tail --follow=name --retry /var/lib/neo4j/logs/query.log >/proc/1/fd/1 &
 exec /docker-entrypoint.sh neo4j
