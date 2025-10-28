@@ -34,1283 +34,1283 @@ property_mapping:
 neo_node_labelling:
   - label: Neuron
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005106>
+      - FBbt:00005106
   - label: Sensory_neuron
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005124>
+      - FBbt:00005124
   - label: Chemosensory_system
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007689>
-      - <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/FBbt_00007689>
+      - FBbt:00007689
+      - BFO:0000050 some FBbt:00007689
   - label: Olfactory_system
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007688>
-      - <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/FBbt_00007688>
+      - FBbt:00007688
+      - BFO:0000050 some FBbt:00007688
   - label: Gustatory_system
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007690>
-      - <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/FBbt_00007690>
+      - FBbt:00007690
+      - BFO:0000050 some FBbt:00007690
   - label: Hygrosensory_system
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110660>
-      - <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/FBbt_00110660>
+      - FBbt:00110660
+      - BFO:0000050 some FBbt:00110660
   - label: Thermosensory_system
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007691>
-      - <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/FBbt_00007691>
+      - FBbt:00007691
+      - BFO:0000050 some FBbt:00007691
   - label: Visual_system
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00047735>
-      - <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/FBbt_00047735>
+      - FBbt:00047735
+      - BFO:0000050 some FBbt:00047735
   - label: Mechanosensory_system
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007687>
-      - <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/FBbt_00007687>
+      - FBbt:00007687
+      - BFO:0000050 some FBbt:00007687
   - label: Nociceptive_system
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00052155>
-      - <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/FBbt_00052155>
+      - FBbt:00052155
+      - BFO:0000050 some FBbt:00052155
   - label: Proprioceptive_system
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00052154>
-      - <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/FBbt_00052154>
+      - FBbt:00052154
+      - BFO:0000050 some FBbt:00052154
   - label: Auditory_system
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007685>
-      - <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/FBbt_00007685>
+      - FBbt:00007685
+      - BFO:0000050 some FBbt:00007685
   - label: Sense_organ
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005155>
+      - FBbt:00005155
   - label: Motor_neuron
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005123>
+      - FBbt:00005123
   - label: Peptidergic
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00004101>
+      - FBbt:00004101
   - label: Neuron_projection_bundle
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005099>
+      - FBbt:00005099
   - label: Synaptic_neuropil
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00040005>
+      - FBbt:00040005
   - label: Synaptic_neuropil_domain
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00040007>
+      - FBbt:00040007
   - label: Synaptic_neuropil_subdomain
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00040006>
+      - FBbt:00040006
   - label: Synaptic_neuropil_block
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00041000>
+      - FBbt:00041000
   - label: Clone
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007683>
+      - FBbt:00007683
   - label: Neuroblast
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005146>
+      - FBbt:00005146
   - label: GMC
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005149>
+      - FBbt:00005149
   - label: Anatomy
     classes:
-      - <http://purl.obolibrary.org/obo/CARO_0000000>
+      - CARO:0000000
   - label: Cell
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007002>
+      - FBbt:00007002
   - label: Glial_cell
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005144>
+      - FBbt:00005144
   - label: Expression_pattern
     classes:
-      - <http://purl.obolibrary.org/obo/CARO_0030002>
+      - CARO:0030002
   - label: Split
     classes:
-      - <http://purl.obolibrary.org/obo/fbbt/vfb/VFBext_0000010>
+      - VFBext:0000010
   - label: Ganglion
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005137>
+      - FBbt:00005137
   - label: Cholinergic
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007173>
+      - FBbt:00007173
   - label: Glutamatergic
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100291>
+      - FBbt:00100291
   - label: GABAergic
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007228>
+      - FBbt:00007228
   - label: Octopaminergic
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007364>
+      - FBbt:00007364
   - label: Dopaminergic
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005131>
+      - FBbt:00005131
   - label: Serotonergic
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005133>
+      - FBbt:00005133
   - label: Histaminergic
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007367>
+      - FBbt:00007367
   - label: Tyraminergic
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100397>
+      - FBbt:00100397
   - label: Expression_pattern_fragment
     classes:
-      - <http://purl.obolibrary.org/obo/fbbt/vfb/VFBext_0000004>
+      - VFBext:0000004
   - label: Neuromere
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005140>
+      - FBbt:00005140
   - label: Muscle
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00005074>
-      - <http://purl.obolibrary.org/obo/FBbt_00058111>
+      - FBbt:00005074
+      - FBbt:00058111
   - label: Nervous_system
     classes:
-      - <http://purl.obolibrary.org/obo/RO_0002131> some <http://purl.obolibrary.org/obo/FBbt_00005093>
-      - <http://purl.obolibrary.org/obo/FBbt_00005155>
-      - <http://purl.obolibrary.org/obo/FBbt_00005146>
+      - RO:0002131 some FBbt:00005093
+      - FBbt:00005155
+      - FBbt:00005146
   - label: Larva
     classes:
-      - <http://purl.obolibrary.org/obo/RO_0002131> some <http://purl.obolibrary.org/obo/FBbt_00001727>
-      - <http://purl.obolibrary.org/obo/RO_0002490> some <http://purl.obolibrary.org/obo/FBdv_00005336>
-      - <http://purl.obolibrary.org/obo/RO_0002490> some (<http://purl.obolibrary.org/obo/FBdv_00018001> some <http://purl.obolibrary.org/obo/FBdv_00005336>)
+      - RO:0002131 some FBbt:00001727
+      - RO:0002490 some FBdv:00005336
+      - RO:0002490 some (FBdv:00018001 some FBdv:00005336)
   - label: Adult
     classes: 
-      - <http://purl.obolibrary.org/obo/RO_0002131> some <http://purl.obolibrary.org/obo/FBbt_00003004>
-      - <http://purl.obolibrary.org/obo/RO_0002490> some <http://purl.obolibrary.org/obo/FBdv_00005369>
-      - <http://purl.obolibrary.org/obo/RO_0002490> some (<http://purl.obolibrary.org/obo/FBdv_00018001> some <http://purl.obolibrary.org/obo/FBdv_00005369>)
+      - RO:0002131 some FBbt:00003004
+      - RO:0002490 some FBdv:00005369
+      - RO:0002490 some (FBdv:00018001 some FBdv:00005369)
   - label: lineage_MBp
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00007113>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00007113>
+      - FBbt:00007113
+      - RO:0002202 some FBbt:00007113
   - label: lineage_VPNd1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00049153>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00049153>
+      - FBbt:00049153
+      - RO:0002202 some FBbt:00049153
   - label: lineage_VLPl&p1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00049157>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00049157>
+      - FBbt:00049157
+      - RO:0002202 some FBbt:00049157
   - label: lineage_VLPa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00049159>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00049159>
+      - FBbt:00049159
+      - RO:0002202 some FBbt:00049159
   - label: lineage_VLPp&l1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00049161>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00049161>
+      - FBbt:00049161
+      - RO:0002202 some FBbt:00049161
   - label: lineage_SMPad1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00049463>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00049463>
+      - FBbt:00049463
+      - RO:0002202 some FBbt:00049463
   - label: lineage_SLPpl3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050006>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050006>
+      - FBbt:00050006
+      - RO:0002202 some FBbt:00050006
   - label: lineage_VPNl&d1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050012>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050012>
+      - FBbt:00050012
+      - RO:0002202 some FBbt:00050012
   - label: lineage_DM1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050018>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050018>
+      - FBbt:00050018
+      - RO:0002202 some FBbt:00050018
   - label: lineage_ALv2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050035>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050035>
+      - FBbt:00050035
+      - RO:0002202 some FBbt:00050035
   - label: lineage_ALlv1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050038>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050038>
+      - FBbt:00050038
+      - RO:0002202 some FBbt:00050038
   - label: lineage_SLPav3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050056>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050056>
+      - FBbt:00050056
+      - RO:0002202 some FBbt:00050056
   - label: lineage_DM5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050059>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050059>
+      - FBbt:00050059
+      - RO:0002202 some FBbt:00050059
   - label: lineage_SLPpl2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050068>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050068>
+      - FBbt:00050068
+      - RO:0002202 some FBbt:00050068
   - label: lineage_DM3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050100>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050100>
+      - FBbt:00050100
+      - RO:0002202 some FBbt:00050100
   - label: lineage_VLPl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050103>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050103>
+      - FBbt:00050103
+      - RO:0002202 some FBbt:00050103
   - label: lineage_VESa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050118>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050118>
+      - FBbt:00050118
+      - RO:0002202 some FBbt:00050118
   - label: lineage_DM2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050121>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050121>
+      - FBbt:00050121
+      - RO:0002202 some FBbt:00050121
   - label: lineage_EBa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050136>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050136>
+      - FBbt:00050136
+      - RO:0002202 some FBbt:00050136
   - label: lineage_DM6
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050142>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050142>
+      - FBbt:00050142
+      - RO:0002202 some FBbt:00050142
   - label: lineage_SLPal4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050154>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050154>
+      - FBbt:00050154
+      - RO:0002202 some FBbt:00050154
   - label: lineage_LALv1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050166>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050166>
+      - FBbt:00050166
+      - RO:0002202 some FBbt:00050166
   - label: lineage_PBp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050169>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050169>
+      - FBbt:00050169
+      - RO:0002202 some FBbt:00050169
   - label: lineage_SLPal5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050175>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050175>
+      - FBbt:00050175
+      - RO:0002202 some FBbt:00050175
   - label: lineage_SMPad2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050201>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050201>
+      - FBbt:00050201
+      - RO:0002202 some FBbt:00050201
   - label: lineage_PSp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050213>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050213>
+      - FBbt:00050213
+      - RO:0002202 some FBbt:00050213
   - label: lineage_VPNp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050249>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050249>
+      - FBbt:00050249
+      - RO:0002202 some FBbt:00050249
   - label: lineage_DM4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050252>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050252>
+      - FBbt:00050252
+      - RO:0002202 some FBbt:00050252
   - label: lineage_LHl3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050255>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050255>
+      - FBbt:00050255
+      - RO:0002202 some FBbt:00050255
   - label: lineage_MBp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050270>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050270>
+      - FBbt:00050270
+      - RO:0002202 some FBbt:00050270
   - label: lineage_LHp3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00052820>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00052820>
+      - FBbt:00052820
+      - RO:0002202 some FBbt:00052820
   - label: lineage_ALad1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00067346>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00067346>
+      - FBbt:00067346
+      - RO:0002202 some FBbt:00067346
   - label: lineage_ALl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00067347>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00067347>
+      - FBbt:00067347
+      - RO:0002202 some FBbt:00067347
   - label: lineage_ALv1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00067348>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00067348>
+      - FBbt:00067348
+      - RO:0002202 some FBbt:00067348
   - label: lineage_SMPad3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100540>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100540>
+      - FBbt:00100540
+      - RO:0002202 some FBbt:00100540
   - label: lineage_VLPa2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100543>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100543>
+      - FBbt:00100543
+      - RO:0002202 some FBbt:00100543
   - label: lineage_AOTUv3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100545>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100545>
+      - FBbt:00100545
+      - RO:0002202 some FBbt:00100545
   - label: lineage_AOTUv4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100546>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100546>
+      - FBbt:00100546
+      - RO:0002202 some FBbt:00100546
   - label: lineage_AOTUv2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100547>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100547>
+      - FBbt:00100547
+      - RO:0002202 some FBbt:00100547
   - label: lineage_CREa2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100548>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100548>
+      - FBbt:00100548
+      - RO:0002202 some FBbt:00100548
   - label: lineage_AOTUv1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100549>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100549>
+      - FBbt:00100549
+      - RO:0002202 some FBbt:00100549
   - label: lineage_WEDd1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100550>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100550>
+      - FBbt:00100550
+      - RO:0002202 some FBbt:00100550
   - label: lineage_CREa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100551>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100551>
+      - FBbt:00100551
+      - RO:0002202 some FBbt:00100551
   - label: lineage_PSa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100553>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100553>
+      - FBbt:00100553
+      - RO:0002202 some FBbt:00100553
   - label: lineage_FLAa2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100555>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100555>
+      - FBbt:00100555
+      - RO:0002202 some FBbt:00100555
   - label: lineage_FLAa3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100556>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100556>
+      - FBbt:00100556
+      - RO:0002202 some FBbt:00100556
   - label: lineage_FLAa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100560>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100560>
+      - FBbt:00100560
+      - RO:0002202 some FBbt:00100560
   - label: lineage_VESa2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100563>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100563>
+      - FBbt:00100563
+      - RO:0002202 some FBbt:00100563
   - label: lineage_LALa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100564>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100564>
+      - FBbt:00100564
+      - RO:0002202 some FBbt:00100564
   - label: lineage_WEDa2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100565>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100565>
+      - FBbt:00100565
+      - RO:0002202 some FBbt:00100565
   - label: lineage_WEDa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100566>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100566>
+      - FBbt:00100566
+      - RO:0002202 some FBbt:00100566
   - label: lineage_PSp2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100571>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100571>
+      - FBbt:00100571
+      - RO:0002202 some FBbt:00100571
   - label: lineage_SMPpv1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100577>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100577>
+      - FBbt:00100577
+      - RO:0002202 some FBbt:00100577
   - label: lineage_SIPp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100578>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100578>
+      - FBbt:00100578
+      - RO:0002202 some FBbt:00100578
   - label: lineage_VLPp2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100579>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100579>
+      - FBbt:00100579
+      - RO:0002202 some FBbt:00100579
   - label: lineage_SMPpm1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100584>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100584>
+      - FBbt:00100584
+      - RO:0002202 some FBbt:00100584
   - label: lineage_PSp3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100586>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100586>
+      - FBbt:00100586
+      - RO:0002202 some FBbt:00100586
   - label: lineage_VLPd1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100590>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100590>
+      - FBbt:00100590
+      - RO:0002202 some FBbt:00100590
   - label: lineage_SLPal1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100591>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100591>
+      - FBbt:00100591
+      - RO:0002202 some FBbt:00100591
   - label: lineage_LHl2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100592>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100592>
+      - FBbt:00100592
+      - RO:0002202 some FBbt:00100592
   - label: lineage_SLPal2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100593>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100593>
+      - FBbt:00100593
+      - RO:0002202 some FBbt:00100593
   - label: lineage_LHd1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100594>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100594>
+      - FBbt:00100594
+      - RO:0002202 some FBbt:00100594
   - label: lineage_SMPpd1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100595>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100595>
+      - FBbt:00100595
+      - RO:0002202 some FBbt:00100595
   - label: lineage_SLPpm2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100596>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100596>
+      - FBbt:00100596
+      - RO:0002202 some FBbt:00100596
   - label: lineage_SLPpm3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100597>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100597>
+      - FBbt:00100597
+      - RO:0002202 some FBbt:00100597
   - label: lineage_CLp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100598>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100598>
+      - FBbt:00100598
+      - RO:0002202 some FBbt:00100598
   - label: lineage_SMPp&v1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100599>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100599>
+      - FBbt:00100599
+      - RO:0002202 some FBbt:00100599
   - label: lineage_SLPpl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100600>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100600>
+      - FBbt:00100600
+      - RO:0002202 some FBbt:00100600
   - label: lineage_VLPd&p1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100601>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100601>
+      - FBbt:00100601
+      - RO:0002202 some FBbt:00100601
   - label: lineage_SLPad1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100602>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100602>
+      - FBbt:00100602
+      - RO:0002202 some FBbt:00100602
   - label: lineage_LHp2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100603>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100603>
+      - FBbt:00100603
+      - RO:0002202 some FBbt:00100603
   - label: lineage_SLPp&v1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100604>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100604>
+      - FBbt:00100604
+      - RO:0002202 some FBbt:00100604
   - label: lineage_SLPpm1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100605>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100605>
+      - FBbt:00100605
+      - RO:0002202 some FBbt:00100605
   - label: lineage_LHd2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100606>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100606>
+      - FBbt:00100606
+      - RO:0002202 some FBbt:00100606
   - label: lineage_SMPpv2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100608>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100608>
+      - FBbt:00100608
+      - RO:0002202 some FBbt:00100608
   - label: lineage_DL1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100609>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100609>
+      - FBbt:00100609
+      - RO:0002202 some FBbt:00100609
   - label: lineage_DL2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100610>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100610>
+      - FBbt:00100610
+      - RO:0002202 some FBbt:00100610
   - label: lineage_CLp2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100611>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100611>
+      - FBbt:00100611
+      - RO:0002202 some FBbt:00100611
   - label: lineage_VLPl&d1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100612>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100612>
+      - FBbt:00100612
+      - RO:0002202 some FBbt:00100612
   - label: lineage_VLPl2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100613>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100613>
+      - FBbt:00100613
+      - RO:0002202 some FBbt:00100613
   - label: lineage_LHa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100614>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100614>
+      - FBbt:00100614
+      - RO:0002202 some FBbt:00100614
   - label: lineage_SIPa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100615>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100615>
+      - FBbt:00100615
+      - RO:0002202 some FBbt:00100615
   - label: lineage_SLPal3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100616>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100616>
+      - FBbt:00100616
+      - RO:0002202 some FBbt:00100616
   - label: lineage_SLPav1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100618>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100618>
+      - FBbt:00100618
+      - RO:0002202 some FBbt:00100618
   - label: lineage_SLPa&l1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100619>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100619>
+      - FBbt:00100619
+      - RO:0002202 some FBbt:00100619
   - label: lineage_LHl4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100620>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100620>
+      - FBbt:00100620
+      - RO:0002202 some FBbt:00100620
   - label: lineage_SLPav2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100621>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100621>
+      - FBbt:00100621
+      - RO:0002202 some FBbt:00100621
   - label: lineage_VLPl4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100622>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100622>
+      - FBbt:00100622
+      - RO:0002202 some FBbt:00100622
   - label: lineage_LHl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100623>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100623>
+      - FBbt:00100623
+      - RO:0002202 some FBbt:00100623
   - label: lineage_VPNp&v1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100625>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100625>
+      - FBbt:00100625
+      - RO:0002202 some FBbt:00100625
   - label: lineage_VLPp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100626>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100626>
+      - FBbt:00100626
+      - RO:0002202 some FBbt:00100626
   - label: lineage_LHp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100628>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100628>
+      - FBbt:00100628
+      - RO:0002202 some FBbt:00100628
   - label: lineage_LHa2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100630>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100630>
+      - FBbt:00100630
+      - RO:0002202 some FBbt:00100630
   - label: lineage_LHa3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100631>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100631>
+      - FBbt:00100631
+      - RO:0002202 some FBbt:00100631
   - label: lineage_VLPl&p2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100633>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100633>
+      - FBbt:00100633
+      - RO:0002202 some FBbt:00100633
   - label: lineage_CREl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100645>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100645>
+      - FBbt:00100645
+      - RO:0002202 some FBbt:00100645
   - label: lineage_WEDd2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100735>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100735>
+      - FBbt:00100735
+      - RO:0002202 some FBbt:00100735
   - label: lineage_LHa4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110359>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110359>
+      - FBbt:00110359
+      - RO:0002202 some FBbt:00110359
   - label: lineage_SLPpm4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110368>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110368>
+      - FBbt:00110368
+      - RO:0002202 some FBbt:00110368
   - label: lineage_SMPpd2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110374>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110374>
+      - FBbt:00110374
+      - RO:0002202 some FBbt:00110374
   - label: lineage_VPNd2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110383>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110383>
+      - FBbt:00110383
+      - RO:0002202 some FBbt:00110383
   - label: lineage_VPNd3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110386>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110386>
+      - FBbt:00110386
+      - RO:0002202 some FBbt:00110386
   - label: lineage_VPNd4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110389>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110389>
+      - FBbt:00110389
+      - RO:0002202 some FBbt:00110389
   - label: lineage_VPNp2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110392>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110392>
+      - FBbt:00110392
+      - RO:0002202 some FBbt:00110392
   - label: lineage_VPNp3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110395>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110395>
+      - FBbt:00110395
+      - RO:0002202 some FBbt:00110395
   - label: lineage_VPNp4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110398>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110398>
+      - FBbt:00110398
+      - RO:0002202 some FBbt:00110398
   - label: lineage_VPNv1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110401>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110401>
+      - FBbt:00110401
+      - RO:0002202 some FBbt:00110401
   - label: lineage_VPNv2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110404>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110404>
+      - FBbt:00110404
+      - RO:0002202 some FBbt:00110404
   - label: lineage_VPNv3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110407>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110407>
+      - FBbt:00110407
+      - RO:0002202 some FBbt:00110407
   - label: lineage_SMPad4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110411>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110411>
+      - FBbt:00110411
+      - RO:0002202 some FBbt:00110411
   - label: lineage_MBp2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110558>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110558>
+      - FBbt:00110558
+      - RO:0002202 some FBbt:00110558
   - label: lineage_MBp3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110561>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110561>
+      - FBbt:00110561
+      - RO:0002202 some FBbt:00110561
   - label: lineage_MBp4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110564>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110564>
+      - FBbt:00110564
+      - RO:0002202 some FBbt:00110564
   - label: lineage_BLD6
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00049153>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00049153>
+      - FBbt:00049153
+      - RO:0002202 some FBbt:00049153
   - label: lineage_BLVa4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00049155>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00049155>
+      - FBbt:00049155
+      - RO:0002202 some FBbt:00049155
   - label: lineage_BLVp2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00049157>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00049157>
+      - FBbt:00049157
+      - RO:0002202 some FBbt:00049157
   - label: lineage_DALl2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00049159>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00049159>
+      - FBbt:00049159
+      - RO:0002202 some FBbt:00049159
   - label: lineage_DPLpv
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00049161>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00049161>
+      - FBbt:00049161
+      - RO:0002202 some FBbt:00049161
   - label: lineage_BLVa2c
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050006>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050006>
+      - FBbt:00050006
+      - RO:0002202 some FBbt:00050006
   - label: lineage_BLAl2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050012>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050012>
+      - FBbt:00050012
+      - RO:0002202 some FBbt:00050012
   - label: lineage_DPMm1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050018>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050018>
+      - FBbt:00050018
+      - RO:0002202 some FBbt:00050018
   - label: lineage_BAla2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050035>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050035>
+      - FBbt:00050035
+      - RO:0002202 some FBbt:00050035
   - label: lineage_BAlp4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050038>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050038>
+      - FBbt:00050038
+      - RO:0002202 some FBbt:00050038
   - label: lineage_BLVa2a
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050056>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050056>
+      - FBbt:00050056
+      - RO:0002202 some FBbt:00050056
   - label: lineage_CM1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050059>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050059>
+      - FBbt:00050059
+      - RO:0002202 some FBbt:00050059
   - label: lineage_CP6
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050068>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050068>
+      - FBbt:00050068
+      - RO:0002202 some FBbt:00050068
   - label: lineage_DPMpm2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050100>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050100>
+      - FBbt:00050100
+      - RO:0002202 some FBbt:00050100
   - label: lineage_BAla3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050118>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050118>
+      - FBbt:00050118
+      - RO:0002202 some FBbt:00050118
   - label: lineage_DPMpm1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050121>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050121>
+      - FBbt:00050121
+      - RO:0002202 some FBbt:00050121
   - label: lineage_DALv2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050136>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050136>
+      - FBbt:00050136
+      - RO:0002202 some FBbt:00050136
   - label: lineage_CM3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050142>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050142>
+      - FBbt:00050142
+      - RO:0002202 some FBbt:00050142
   - label: lineage_BAmv1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050166>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050166>
+      - FBbt:00050166
+      - RO:0002202 some FBbt:00050166
   - label: lineage_CM6
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050169>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050169>
+      - FBbt:00050169
+      - RO:0002202 some FBbt:00050169
   - label: lineage_BLAd5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050175>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050175>
+      - FBbt:00050175
+      - RO:0002202 some FBbt:00050175
   - label: lineage_DPMl2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050213>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050213>
+      - FBbt:00050213
+      - RO:0002202 some FBbt:00050213
   - label: lineage_BLD5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050249>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050249>
+      - FBbt:00050249
+      - RO:0002202 some FBbt:00050249
   - label: lineage_CM4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050252>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050252>
+      - FBbt:00050252
+      - RO:0002202 some FBbt:00050252
   - label: lineage_BLVa2b
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00050255>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00050255>
+      - FBbt:00050255
+      - RO:0002202 some FBbt:00050255
   - label: lineage_CP5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00052820>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00052820>
+      - FBbt:00052820
+      - RO:0002202 some FBbt:00052820
   - label: lineage_BAmv3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00067346>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00067346>
+      - FBbt:00067346
+      - RO:0002202 some FBbt:00067346
   - label: lineage_BAlc
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00067347>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00067347>
+      - FBbt:00067347
+      - RO:0002202 some FBbt:00067347
   - label: lineage_BAla1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00067348>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00067348>
+      - FBbt:00067348
+      - RO:0002202 some FBbt:00067348
   - label: lineage_DAMv1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100498>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100498>
+      - FBbt:00100498
+      - RO:0002202 some FBbt:00100498
   - label: lineage_DAMv2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100512>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100512>
+      - FBbt:00100512
+      - RO:0002202 some FBbt:00100512
   - label: lineage_DAMd1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100540>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100540>
+      - FBbt:00100540
+      - RO:0002202 some FBbt:00100540
   - label: lineage_DAMd2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100541>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100541>
+      - FBbt:00100541
+      - RO:0002202 some FBbt:00100541
   - label: lineage_DAMd3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100542>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100542>
+      - FBbt:00100542
+      - RO:0002202 some FBbt:00100542
   - label: lineage_DALv1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100543>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100543>
+      - FBbt:00100543
+      - RO:0002202 some FBbt:00100543
   - label: lineage_DALcl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100545>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100545>
+      - FBbt:00100545
+      - RO:0002202 some FBbt:00100545
   - label: lineage_DALcl2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100546>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100546>
+      - FBbt:00100546
+      - RO:0002202 some FBbt:00100546
   - label: lineage_DALl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100547>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100547>
+      - FBbt:00100547
+      - RO:0002202 some FBbt:00100547
   - label: lineage_DALcm1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100548>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100548>
+      - FBbt:00100548
+      - RO:0002202 some FBbt:00100548
   - label: lineage_DALcm2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100549>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100549>
+      - FBbt:00100549
+      - RO:0002202 some FBbt:00100549
   - label: lineage_DALd
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100550>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100550>
+      - FBbt:00100550
+      - RO:0002202 some FBbt:00100550
   - label: lineage_BAmd1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100551>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100551>
+      - FBbt:00100551
+      - RO:0002202 some FBbt:00100551
   - label: lineage_BAmv2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100553>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100553>
+      - FBbt:00100553
+      - RO:0002202 some FBbt:00100553
   - label: lineage_BAmas1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100555>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100555>
+      - FBbt:00100555
+      - RO:0002202 some FBbt:00100555
   - label: lineage_BAmas2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100556>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100556>
+      - FBbt:00100556
+      - RO:0002202 some FBbt:00100556
   - label: lineage_BAla4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100560>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100560>
+      - FBbt:00100560
+      - RO:0002202 some FBbt:00100560
   - label: lineage_BAlp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100563>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100563>
+      - FBbt:00100563
+      - RO:0002202 some FBbt:00100563
   - label: lineage_BAlp2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100564>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100564>
+      - FBbt:00100564
+      - RO:0002202 some FBbt:00100564
   - label: lineage_BAlp3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100565>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100565>
+      - FBbt:00100565
+      - RO:0002202 some FBbt:00100565
   - label: lineage_BAlv
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100566>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100566>
+      - FBbt:00100566
+      - RO:0002202 some FBbt:00100566
   - label: lineage_CM2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100568>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100568>
+      - FBbt:00100568
+      - RO:0002202 some FBbt:00100568
   - label: lineage_CM5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100571>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100571>
+      - FBbt:00100571
+      - RO:0002202 some FBbt:00100571
   - label: lineage_TRdm
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100572>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100572>
+      - FBbt:00100572
+      - RO:0002202 some FBbt:00100572
   - label: lineage_TRdl
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100573>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100573>
+      - FBbt:00100573
+      - RO:0002202 some FBbt:00100573
   - label: lineage_TRvm
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100574>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100574>
+      - FBbt:00100574
+      - RO:0002202 some FBbt:00100574
   - label: lineage_TRvl
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100575>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100575>
+      - FBbt:00100575
+      - RO:0002202 some FBbt:00100575
   - label: lineage_TRco
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100576>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100576>
+      - FBbt:00100576
+      - RO:0002202 some FBbt:00100576
   - label: lineage_DPMpl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100577>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100577>
+      - FBbt:00100577
+      - RO:0002202 some FBbt:00100577
   - label: lineage_DPMpl2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100578>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100578>
+      - FBbt:00100578
+      - RO:0002202 some FBbt:00100578
   - label: lineage_DPMpl3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100579>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100579>
+      - FBbt:00100579
+      - RO:0002202 some FBbt:00100579
   - label: lineage_DPMm2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100584>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100584>
+      - FBbt:00100584
+      - RO:0002202 some FBbt:00100584
   - label: lineage_DPMm3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100585>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100585>
+      - FBbt:00100585
+      - RO:0002202 some FBbt:00100585
   - label: lineage_DPMl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100586>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100586>
+      - FBbt:00100586
+      - RO:0002202 some FBbt:00100586
   - label: lineage_DPLam
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100590>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100590>
+      - FBbt:00100590
+      - RO:0002202 some FBbt:00100590
   - label: lineage_DPLal1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100591>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100591>
+      - FBbt:00100591
+      - RO:0002202 some FBbt:00100591
   - label: lineage_DPLal2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100592>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100592>
+      - FBbt:00100592
+      - RO:0002202 some FBbt:00100592
   - label: lineage_DPLal3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100593>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100593>
+      - FBbt:00100593
+      - RO:0002202 some FBbt:00100593
   - label: lineage_DPLd
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100594>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100594>
+      - FBbt:00100594
+      - RO:0002202 some FBbt:00100594
   - label: lineage_DPLc1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100595>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100595>
+      - FBbt:00100595
+      - RO:0002202 some FBbt:00100595
   - label: lineage_DPLc2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100596>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100596>
+      - FBbt:00100596
+      - RO:0002202 some FBbt:00100596
   - label: lineage_DPLc3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100597>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100597>
+      - FBbt:00100597
+      - RO:0002202 some FBbt:00100597
   - label: lineage_DPLc4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100598>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100598>
+      - FBbt:00100598
+      - RO:0002202 some FBbt:00100598
   - label: lineage_DPLc5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100599>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100599>
+      - FBbt:00100599
+      - RO:0002202 some FBbt:00100599
   - label: lineage_DPLl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100600>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100600>
+      - FBbt:00100600
+      - RO:0002202 some FBbt:00100600
   - label: lineage_DPLl2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100601>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100601>
+      - FBbt:00100601
+      - RO:0002202 some FBbt:00100601
   - label: lineage_DPLl3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100602>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100602>
+      - FBbt:00100602
+      - RO:0002202 some FBbt:00100602
   - label: lineage_DPLp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100603>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100603>
+      - FBbt:00100603
+      - RO:0002202 some FBbt:00100603
   - label: lineage_DPLp2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100604>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100604>
+      - FBbt:00100604
+      - RO:0002202 some FBbt:00100604
   - label: lineage_DPLm1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100605>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100605>
+      - FBbt:00100605
+      - RO:0002202 some FBbt:00100605
   - label: lineage_DPLm2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100606>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100606>
+      - FBbt:00100606
+      - RO:0002202 some FBbt:00100606
   - label: lineage_DPLcv
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100607>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100607>
+      - FBbt:00100607
+      - RO:0002202 some FBbt:00100607
   - label: lineage_CP1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100608>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100608>
+      - FBbt:00100608
+      - RO:0002202 some FBbt:00100608
   - label: lineage_CP2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100609>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100609>
+      - FBbt:00100609
+      - RO:0002202 some FBbt:00100609
   - label: lineage_CP3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100610>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100610>
+      - FBbt:00100610
+      - RO:0002202 some FBbt:00100610
   - label: lineage_CP4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100611>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100611>
+      - FBbt:00100611
+      - RO:0002202 some FBbt:00100611
   - label: lineage_BLAv1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100612>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100612>
+      - FBbt:00100612
+      - RO:0002202 some FBbt:00100612
   - label: lineage_BLAv2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100613>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100613>
+      - FBbt:00100613
+      - RO:0002202 some FBbt:00100613
   - label: lineage_BLAd1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100614>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100614>
+      - FBbt:00100614
+      - RO:0002202 some FBbt:00100614
   - label: lineage_BLAd2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100615>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100615>
+      - FBbt:00100615
+      - RO:0002202 some FBbt:00100615
   - label: lineage_BLAd3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100616>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100616>
+      - FBbt:00100616
+      - RO:0002202 some FBbt:00100616
   - label: lineage_BLAd4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100617>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100617>
+      - FBbt:00100617
+      - RO:0002202 some FBbt:00100617
   - label: lineage_BLAl1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100618>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100618>
+      - FBbt:00100618
+      - RO:0002202 some FBbt:00100618
   - label: lineage_BLAvm
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100619>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100619>
+      - FBbt:00100619
+      - RO:0002202 some FBbt:00100619
   - label: lineage_BLD1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100620>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100620>
+      - FBbt:00100620
+      - RO:0002202 some FBbt:00100620
   - label: lineage_BLD2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100621>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100621>
+      - FBbt:00100621
+      - RO:0002202 some FBbt:00100621
   - label: lineage_BLD3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100622>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100622>
+      - FBbt:00100622
+      - RO:0002202 some FBbt:00100622
   - label: lineage_BLD4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100623>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100623>
+      - FBbt:00100623
+      - RO:0002202 some FBbt:00100623
   - label: lineage_BLP1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100625>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100625>
+      - FBbt:00100625
+      - RO:0002202 some FBbt:00100625
   - label: lineage_BLP2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100626>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100626>
+      - FBbt:00100626
+      - RO:0002202 some FBbt:00100626
   - label: lineage_BLP3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100627>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100627>
+      - FBbt:00100627
+      - RO:0002202 some FBbt:00100627
   - label: lineage_BLP4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100628>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100628>
+      - FBbt:00100628
+      - RO:0002202 some FBbt:00100628
   - label: lineage_BLP5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100629>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100629>
+      - FBbt:00100629
+      - RO:0002202 some FBbt:00100629
   - label: lineage_BLVa1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100630>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100630>
+      - FBbt:00100630
+      - RO:0002202 some FBbt:00100630
   - label: lineage_BLVa2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100631>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100631>
+      - FBbt:00100631
+      - RO:0002202 some FBbt:00100631
   - label: lineage_BLVa3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100632>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100632>
+      - FBbt:00100632
+      - RO:0002202 some FBbt:00100632
   - label: lineage_BLVp1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100633>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100633>
+      - FBbt:00100633
+      - RO:0002202 some FBbt:00100633
   - label: lineage_DALv3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100645>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100645>
+      - FBbt:00100645
+      - RO:0002202 some FBbt:00100645
   - label: lineage_BAmd2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00100735>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00100735>
+      - FBbt:00100735
+      - RO:0002202 some FBbt:00100735
   - label: lineage_DPLc6
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00110374>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00110374>
+      - FBbt:00110374
+      - RO:0002202 some FBbt:00110374
   - label: lineage_NB1-1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001371>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001371>
+      - FBbt:00001371
+      - RO:0002202 some FBbt:00001371
   - label: lineage_NB2-5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001374>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001374>
+      - FBbt:00001374
+      - RO:0002202 some FBbt:00001374
   - label: lineage_NB3-5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001375>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001375>
+      - FBbt:00001375
+      - RO:0002202 some FBbt:00001375
   - label: lineage_NB5-2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001376>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001376>
+      - FBbt:00001376
+      - RO:0002202 some FBbt:00001376
   - label: lineage_NB5-6
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001377>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001377>
+      - FBbt:00001377
+      - RO:0002202 some FBbt:00001377
   - label: lineage_NB7-1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001380>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001380>
+      - FBbt:00001380
+      - RO:0002202 some FBbt:00001380
   - label: lineage_NB7-4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001381>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001381>
+      - FBbt:00001381
+      - RO:0002202 some FBbt:00001381
   - label: lineage_NB1-2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001384>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001384>
+      - FBbt:00001384
+      - RO:0002202 some FBbt:00001384
   - label: lineage_NB2-2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001385>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001385>
+      - FBbt:00001385
+      - RO:0002202 some FBbt:00001385
   - label: lineage_NB3-2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001388>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001388>
+      - FBbt:00001388
+      - RO:0002202 some FBbt:00001388
   - label: lineage_NB4-2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001389>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001389>
+      - FBbt:00001389
+      - RO:0002202 some FBbt:00001389
   - label: lineage_NB5-3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001390>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001390>
+      - FBbt:00001390
+      - RO:0002202 some FBbt:00001390
   - label: lineage_NB6-2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001391>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001391>
+      - FBbt:00001391
+      - RO:0002202 some FBbt:00001391
   - label: lineage_NB7-2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001392>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001392>
+      - FBbt:00001392
+      - RO:0002202 some FBbt:00001392
   - label: lineage_NB3-1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001394>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001394>
+      - FBbt:00001394
+      - RO:0002202 some FBbt:00001394
   - label: lineage_NB4-1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001397>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001397>
+      - FBbt:00001397
+      - RO:0002202 some FBbt:00001397
   - label: lineage_NB6-1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001398>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001398>
+      - FBbt:00001398
+      - RO:0002202 some FBbt:00001398
   - label: lineage_NB6-4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001399>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001399>
+      - FBbt:00001399
+      - RO:0002202 some FBbt:00001399
   - label: lineage_NB1-3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001404>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001404>
+      - FBbt:00001404
+      - RO:0002202 some FBbt:00001404
   - label: lineage_NB2-1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001410>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001410>
+      - FBbt:00001410
+      - RO:0002202 some FBbt:00001410
   - label: lineage_NB2-4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001411>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001411>
+      - FBbt:00001411
+      - RO:0002202 some FBbt:00001411
   - label: lineage_NB3-4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001414>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001414>
+      - FBbt:00001414
+      - RO:0002202 some FBbt:00001414
   - label: lineage_NB4-4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001415>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001415>
+      - FBbt:00001415
+      - RO:0002202 some FBbt:00001415
   - label: lineage_NB5-4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001416>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001416>
+      - FBbt:00001416
+      - RO:0002202 some FBbt:00001416
   - label: lineage_MNB
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001419>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001419>
+      - FBbt:00001419
+      - RO:0002202 some FBbt:00001419
   - label: lineage_NB2-3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001421>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001421>
+      - FBbt:00001421
+      - RO:0002202 some FBbt:00001421
   - label: lineage_NB3-3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001422>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001422>
+      - FBbt:00001422
+      - RO:0002202 some FBbt:00001422
   - label: lineage_NB4-3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001423>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001423>
+      - FBbt:00001423
+      - RO:0002202 some FBbt:00001423
   - label: lineage_NB5-1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001424>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001424>
+      - FBbt:00001424
+      - RO:0002202 some FBbt:00001424
   - label: lineage_NB5-5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001425>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001425>
+      - FBbt:00001425
+      - RO:0002202 some FBbt:00001425
   - label: lineage_NB7-3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001426>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001426>
+      - FBbt:00001426
+      - RO:0002202 some FBbt:00001426
   - label: lineage_NB5-7
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00111737>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00111737>
+      - FBbt:00111737
+      - RO:0002202 some FBbt:00111737
   - label: lineage_16
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001371>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001371>
+      - FBbt:00001371
+      - RO:0002202 some FBbt:00001371
   - label: lineage_17
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001374>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001374>
+      - FBbt:00001374
+      - RO:0002202 some FBbt:00001374
   - label: lineage_9
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001375>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001375>
+      - FBbt:00001375
+      - RO:0002202 some FBbt:00001375
   - label: lineage_6
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001376>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001376>
+      - FBbt:00001376
+      - RO:0002202 some FBbt:00001376
   - label: lineage_3
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001380>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001380>
+      - FBbt:00001380
+      - RO:0002202 some FBbt:00001380
   - label: lineage_23
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001381>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001381>
+      - FBbt:00001381
+      - RO:0002202 some FBbt:00001381
   - label: lineage_1
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001384>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001384>
+      - FBbt:00001384
+      - RO:0002202 some FBbt:00001384
   - label: lineage_10
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001385>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001385>
+      - FBbt:00001385
+      - RO:0002202 some FBbt:00001385
   - label: lineage_7
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001388>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001388>
+      - FBbt:00001388
+      - RO:0002202 some FBbt:00001388
   - label: lineage_13
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001389>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001389>
+      - FBbt:00001389
+      - RO:0002202 some FBbt:00001389
   - label: lineage_5
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001390>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001390>
+      - FBbt:00001390
+      - RO:0002202 some FBbt:00001390
   - label: lineage_19
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001391>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001391>
+      - FBbt:00001391
+      - RO:0002202 some FBbt:00001391
   - label: lineage_11
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001392>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001392>
+      - FBbt:00001392
+      - RO:0002202 some FBbt:00001392
   - label: lineage_4
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001394>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001394>
+      - FBbt:00001394
+      - RO:0002202 some FBbt:00001394
   - label: lineage_14
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001397>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001397>
+      - FBbt:00001397
+      - RO:0002202 some FBbt:00001397
   - label: lineage_12
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001398>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001398>
+      - FBbt:00001398
+      - RO:0002202 some FBbt:00001398
   - label: lineage_2
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001410>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001410>
+      - FBbt:00001410
+      - RO:0002202 some FBbt:00001410
   - label: lineage_18
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001411>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001411>
+      - FBbt:00001411
+      - RO:0002202 some FBbt:00001411
   - label: lineage_25
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001414>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001414>
+      - FBbt:00001414
+      - RO:0002202 some FBbt:00001414
   - label: lineage_24
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001415>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001415>
+      - FBbt:00001415
+      - RO:0002202 some FBbt:00001415
   - label: lineage_22
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001416>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001416>
+      - FBbt:00001416
+      - RO:0002202 some FBbt:00001416
   - label: lineage_0
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001419>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001419>
+      - FBbt:00001419
+      - RO:0002202 some FBbt:00001419
   - label: lineage_15
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001421>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001421>
+      - FBbt:00001421
+      - RO:0002202 some FBbt:00001421
   - label: lineage_8
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001422>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001422>
+      - FBbt:00001422
+      - RO:0002202 some FBbt:00001422
   - label: lineage_21
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001423>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001423>
+      - FBbt:00001423
+      - RO:0002202 some FBbt:00001423
   - label: lineage_26
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00001424>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00001424>
+      - FBbt:00001424
+      - RO:0002202 some FBbt:00001424
   - label: lineage_20
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00111737>
-      - <http://purl.obolibrary.org/obo/RO_0002202> some <http://purl.obolibrary.org/obo/FBbt_00111737>
+      - FBbt:00111737
+      - RO:0002202 some FBbt:00111737
   - label: primary_neuron
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00047097>
+      - FBbt:00047097
   - label: secondary_neuron
     classes:
-      - <http://purl.obolibrary.org/obo/FBbt_00047096>
+      - FBbt:00047096
   - label: Channel
     classes:
-      - <http://purl.obolibrary.org/obo/fbbt/vfb/VFBext_0000014>
+      - VFBext:0000014
 curie_map:
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
