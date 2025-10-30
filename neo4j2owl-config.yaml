@@ -1353,6 +1353,7 @@ curie_map:
   FBbt: http://purl.obolibrary.org/obo/FBbt_
   RO: http://purl.obolibrary.org/obo/RO_
   FBdv: http://purl.obolibrary.org/obo/FBdv_
+  S23: http://vocab.nerc.ac.uk/collection/S23/current/
 
 filters:
   solr:
