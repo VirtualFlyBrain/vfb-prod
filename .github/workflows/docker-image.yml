@@ -10,12 +10,17 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
-    - run: docker build . --file Dockerfile --tag vfb-prod:${GITHUB_REF#refs/heads/}
-    - name: Dockerize
-      if: success()
-      uses: manusa/actions-publish-docker@v1.1.2
+      uses: actions/checkout@v4
+    - name: Login to Docker Hub
+      if: github.event_name == 'push'
+      uses: docker/login-action@v3
       with:
-        name: virtualflybrain/vfb-prod
         username: ${{ secrets.DOCKER_HUB_USER }}
         password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+    - name: Build and push
+      uses: docker/build-push-action@v6
+      with:
+        context: .
+        file: ./Dockerfile
+        push: ${{ github.event_name == 'push' }}
+        tags: ${{ github.event_name == 'push' && format('virtualflybrain/vfb-prod:{0}', github.ref_name) || format('virtualflybrain/vfb-prod:pr-{0}', github.event.number) }}
