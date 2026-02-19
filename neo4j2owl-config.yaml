@@ -178,11 +178,11 @@ neo_node_labelling:
       - RO:0002131 some FBbt:00003004
       - RO:0002490 some FBdv:00005369
       - RO:0002490 some (FBdv:00018001 some FBdv:00005369)
-  - label: lineage_NB1-1_16
+  - label: lineage_16_NB1-1
     classes:
       - FBbt:00001371
       - RO:0002202 some FBbt:00001371
-  - label: lineage_NB2-5_17
+  - label: lineage_17_NB2-5
     classes:
       - FBbt:00001374
       - RO:0002202 some FBbt:00001374
@@ -198,11 +198,11 @@ neo_node_labelling:
     classes:
       - FBbt:00001377
       - RO:0002202 some FBbt:00001377
-  - label: lineage_NB7-1_3
+  - label: lineage_3_NB7-1
     classes:
       - FBbt:00001380
       - RO:0002202 some FBbt:00001380
-  - label: lineage_NB7-4_23
+  - label: lineage_23_NB7-4
     classes:
       - FBbt:00001381
       - RO:0002202 some FBbt:00001381
@@ -210,7 +210,7 @@ neo_node_labelling:
     classes:
       - FBbt:00001384
       - RO:0002202 some FBbt:00001384
-  - label: lineage_NB2-2_10
+  - label: lineage_10_NB2-2
     classes:
       - FBbt:00001385
       - RO:0002202 some FBbt:00001385
@@ -222,7 +222,7 @@ neo_node_labelling:
     classes:
       - FBbt:00001389
       - RO:0002202 some FBbt:00001389
-  - label: lineage_NB5-3_5
+  - label: lineage_5_NB5-3
     classes:
       - FBbt:00001390
       - RO:0002202 some FBbt:00001390
@@ -230,11 +230,11 @@ neo_node_labelling:
     classes:
       - FBbt:00001391
       - RO:0002202 some FBbt:00001391
-  - label: lineage_NB7-2_11
+  - label: lineage_11_NB7-2
     classes:
       - FBbt:00001392
       - RO:0002202 some FBbt:00001392
-  - label: lineage_NB3-1_4
+  - label: lineage_4_NB3-1
     classes:
       - FBbt:00001394
       - RO:0002202 some FBbt:00001394
@@ -242,7 +242,7 @@ neo_node_labelling:
     classes:
       - FBbt:00001397
       - RO:0002202 some FBbt:00001397
-  - label: lineage_NB6-1_12
+  - label: lineage_12_NB6-1
     classes:
       - FBbt:00001398
       - RO:0002202 some FBbt:00001398
@@ -258,19 +258,19 @@ neo_node_labelling:
     classes:
       - FBbt:00001410
       - RO:0002202 some FBbt:00001410
-  - label: lineage_NB2-4_18
+  - label: lineage_18_NB2-4
     classes:
       - FBbt:00001411
       - RO:0002202 some FBbt:00001411
-  - label: lineage_NB3-4_25
+  - label: lineage_25_NB3-4
     classes:
       - FBbt:00001414
       - RO:0002202 some FBbt:00001414
-  - label: lineage_NB4-4_24
+  - label: lineage_24_NB4-4
     classes:
       - FBbt:00001415
       - RO:0002202 some FBbt:00001415
-  - label: lineage_NB5-4_22
+  - label: lineage_22_NB5-4
     classes:
       - FBbt:00001416
       - RO:0002202 some FBbt:00001416
@@ -278,19 +278,19 @@ neo_node_labelling:
     classes:
       - FBbt:00001419
       - RO:0002202 some FBbt:00001419
-  - label: lineage_NB2-3_15
+  - label: lineage_15_NB2-3
     classes:
       - FBbt:00001421
       - RO:0002202 some FBbt:00001421
-  - label: lineage_NB3-3_8
+  - label: lineage_8_NB3-3
     classes:
       - FBbt:00001422
       - RO:0002202 some FBbt:00001422
-  - label: lineage_NB4-3_21
+  - label: lineage_21_NB4-3
     classes:
       - FBbt:00001423
       - RO:0002202 some FBbt:00001423
-  - label: lineage_NB5-1_26
+  - label: lineage_26_NB5-1
     classes:
       - FBbt:00001424
       - RO:0002202 some FBbt:00001424
@@ -306,7 +306,7 @@ neo_node_labelling:
     classes:
       - FBbt:00007113
       - RO:0002202 some FBbt:00007113
-  - label: lineage_BLD6_VPNd1
+  - label: lineage_VPNd1_BLD6
     classes:
       - FBbt:00049153
       - RO:0002202 some FBbt:00049153
@@ -314,11 +314,11 @@ neo_node_labelling:
     classes:
       - FBbt:00049155
       - RO:0002202 some FBbt:00049155
-  - label: lineage_BLVp2_VLPl&p1
+  - label: lineage_VLPl&p1_BLVp2
     classes:
       - FBbt:00049157
       - RO:0002202 some FBbt:00049157
-  - label: lineage_DALl2_VLPa1
+  - label: lineage_VLPa1_DALl2
     classes:
       - FBbt:00049159
       - RO:0002202 some FBbt:00049159
@@ -330,11 +330,11 @@ neo_node_labelling:
     classes:
       - FBbt:00049463
       - RO:0002202 some FBbt:00049463
-  - label: lineage_BLVa2c_SLPpl3
+  - label: lineage_SLPpl3_BLVa2c
     classes:
       - FBbt:00050006
       - RO:0002202 some FBbt:00050006
-  - label: lineage_BLAl2_VPNl&d1
+  - label: lineage_VPNl&d1_BLAl2
     classes:
       - FBbt:00050012
       - RO:0002202 some FBbt:00050012
@@ -354,11 +354,11 @@ neo_node_labelling:
     classes:
       - FBbt:00050056
       - RO:0002202 some FBbt:00050056
-  - label: lineage_CM1_DM5
+  - label: lineage_DM5_CM1
     classes:
       - FBbt:00050059
       - RO:0002202 some FBbt:00050059
-  - label: lineage_CP6_SLPpl2
+  - label: lineage_SLPpl2_CP6
     classes:
       - FBbt:00050068
       - RO:0002202 some FBbt:00050068
@@ -374,7 +374,7 @@ neo_node_labelling:
     classes:
       - FBbt:00050118
       - RO:0002202 some FBbt:00050118
-  - label: lineage_DPMpm1_DM2
+  - label: lineage_DM2_DPMpm1
     classes:
       - FBbt:00050121
       - RO:0002202 some FBbt:00050121
@@ -382,7 +382,7 @@ neo_node_labelling:
     classes:
       - FBbt:00050136
       - RO:0002202 some FBbt:00050136
-  - label: lineage_CM3_DM6
+  - label: lineage_DM6_CM3
     classes:
       - FBbt:00050142
       - RO:0002202 some FBbt:00050142
@@ -410,15 +410,15 @@ neo_node_labelling:
     classes:
       - FBbt:00050213
       - RO:0002202 some FBbt:00050213
-  - label: lineage_BLD5_VPNp1
+  - label: lineage_VPNp1_BLD5
     classes:
       - FBbt:00050249
       - RO:0002202 some FBbt:00050249
-  - label: lineage_CM4_DM4
+  - label: lineage_DM4_CM4
     classes:
       - FBbt:00050252
       - RO:0002202 some FBbt:00050252
-  - label: lineage_BLVa2b_LHl3
+  - label: lineage_LHl3_BLVa2b
     classes:
       - FBbt:00050255
       - RO:0002202 some FBbt:00050255
@@ -426,11 +426,11 @@ neo_node_labelling:
     classes:
       - FBbt:00050270
       - RO:0002202 some FBbt:00050270
-  - label: lineage_CP5_LHp3
+  - label: lineage_LHp3_CP5
     classes:
       - FBbt:00052820
       - RO:0002202 some FBbt:00052820
-  - label: lineage_BAmv3_ALad1
+  - label: lineage_ALad1_BAmv3
     classes:
       - FBbt:00067346
       - RO:0002202 some FBbt:00067346
@@ -438,7 +438,7 @@ neo_node_labelling:
     classes:
       - FBbt:00067347
       - RO:0002202 some FBbt:00067347
-  - label: lineage_BAla1_ALv1
+  - label: lineage_ALv1_BAla1
     classes:
       - FBbt:00067348
       - RO:0002202 some FBbt:00067348
@@ -462,7 +462,7 @@ neo_node_labelling:
     classes:
       - FBbt:00100542
       - RO:0002202 some FBbt:00100542
-  - label: lineage_DALv1_VLPa2
+  - label: lineage_VLPa2_DALv1
     classes:
       - FBbt:00100543
       - RO:0002202 some FBbt:00100543
@@ -478,11 +478,11 @@ neo_node_labelling:
     classes:
       - FBbt:00100547
       - RO:0002202 some FBbt:00100547
-  - label: lineage_DALcm1_CREa2
+  - label: lineage_CREa2_DALcm1
     classes:
       - FBbt:00100548
       - RO:0002202 some FBbt:00100548
-  - label: lineage_DALcm2_AOTUv1
+  - label: lineage_AOTUv1_DALcm2
     classes:
       - FBbt:00100549
       - RO:0002202 some FBbt:00100549
@@ -494,11 +494,11 @@ neo_node_labelling:
     classes:
       - FBbt:00100551
       - RO:0002202 some FBbt:00100551
-  - label: lineage_BAmv2_PSa1
+  - label: lineage_PSa1_BAmv2
     classes:
       - FBbt:00100553
       - RO:0002202 some FBbt:00100553
-  - label: lineage_BAmas1_FLAa2
+  - label: lineage_FLAa2_BAmas1
     classes:
       - FBbt:00100555
       - RO:0002202 some FBbt:00100555
@@ -518,7 +518,7 @@ neo_node_labelling:
     classes:
       - FBbt:00100564
       - RO:0002202 some FBbt:00100564
-  - label: lineage_BAlp3_WEDa2
+  - label: lineage_WEDa2_BAlp3
     classes:
       - FBbt:00100565
       - RO:0002202 some FBbt:00100565
@@ -530,7 +530,7 @@ neo_node_labelling:
     classes:
       - FBbt:00100568
       - RO:0002202 some FBbt:00100568
-  - label: lineage_CM5_PSp2
+  - label: lineage_PSp2_CM5
     classes:
       - FBbt:00100571
       - RO:0002202 some FBbt:00100571
@@ -558,15 +558,15 @@ neo_node_labelling:
     classes:
       - FBbt:00100577
       - RO:0002202 some FBbt:00100577
-  - label: lineage_DPMpl2_SIPp1
+  - label: lineage_SIPp1_DPMpl2
     classes:
       - FBbt:00100578
       - RO:0002202 some FBbt:00100578
-  - label: lineage_DPMpl3_VLPp2
+  - label: lineage_VLPp2_DPMpl3
     classes:
       - FBbt:00100579
       - RO:0002202 some FBbt:00100579
-  - label: lineage_DPMm2_SMPpm1
+  - label: lineage_SMPpm1_DPMm2
     classes:
       - FBbt:00100584
       - RO:0002202 some FBbt:00100584
@@ -574,7 +574,7 @@ neo_node_labelling:
     classes:
       - FBbt:00100585
       - RO:0002202 some FBbt:00100585
-  - label: lineage_DPMl1_PSp3
+  - label: lineage_PSp3_DPMl1
     classes:
       - FBbt:00100586
       - RO:0002202 some FBbt:00100586
@@ -590,27 +590,27 @@ neo_node_labelling:
     classes:
       - FBbt:00100592
       - RO:0002202 some FBbt:00100592
-  - label: lineage_DPLal3_SLPal2
+  - label: lineage_SLPal2_DPLal3
     classes:
       - FBbt:00100593
       - RO:0002202 some FBbt:00100593
-  - label: lineage_DPLd_LHd1
+  - label: lineage_LHd1_DPLd
     classes:
       - FBbt:00100594
       - RO:0002202 some FBbt:00100594
-  - label: lineage_DPLc1_SMPpd1
+  - label: lineage_SMPpd1_DPLc1
     classes:
       - FBbt:00100595
       - RO:0002202 some FBbt:00100595
-  - label: lineage_DPLc2_SLPpm2
+  - label: lineage_SLPpm2_DPLc2
     classes:
       - FBbt:00100596
       - RO:0002202 some FBbt:00100596
-  - label: lineage_DPLc3_SLPpm3
+  - label: lineage_SLPpm3_DPLc3
     classes:
       - FBbt:00100597
       - RO:0002202 some FBbt:00100597
-  - label: lineage_DPLc4_CLp1
+  - label: lineage_CLp1_DPLc4
     classes:
       - FBbt:00100598
       - RO:0002202 some FBbt:00100598
@@ -618,15 +618,15 @@ neo_node_labelling:
     classes:
       - FBbt:00100599
       - RO:0002202 some FBbt:00100599
-  - label: lineage_DPLl1_SLPpl1
+  - label: lineage_SLPpl1_DPLl1
     classes:
       - FBbt:00100600
       - RO:0002202 some FBbt:00100600
-  - label: lineage_DPLl2_VLPd&p1
+  - label: lineage_VLPd&p1_DPLl2
     classes:
       - FBbt:00100601
       - RO:0002202 some FBbt:00100601
-  - label: lineage_DPLl3_SLPad1
+  - label: lineage_SLPad1_DPLl3
     classes:
       - FBbt:00100602
       - RO:0002202 some FBbt:00100602
@@ -634,11 +634,11 @@ neo_node_labelling:
     classes:
       - FBbt:00100603
       - RO:0002202 some FBbt:00100603
-  - label: lineage_DPLp2_SLPp&v1
+  - label: lineage_SLPp&v1_DPLp2
     classes:
       - FBbt:00100604
       - RO:0002202 some FBbt:00100604
-  - label: lineage_DPLm1_SLPpm1
+  - label: lineage_SLPpm1_DPLm1
     classes:
       - FBbt:00100605
       - RO:0002202 some FBbt:00100605
@@ -650,11 +650,11 @@ neo_node_labelling:
     classes:
       - FBbt:00100607
       - RO:0002202 some FBbt:00100607
-  - label: lineage_CP1_SMPpv2
+  - label: lineage_SMPpv2_CP1
     classes:
       - FBbt:00100608
       - RO:0002202 some FBbt:00100608
-  - label: lineage_CP2_DL1
+  - label: lineage_DL1_CP2
     classes:
       - FBbt:00100609
       - RO:0002202 some FBbt:00100609
@@ -662,11 +662,11 @@ neo_node_labelling:
     classes:
       - FBbt:00100610
       - RO:0002202 some FBbt:00100610
-  - label: lineage_CP4_CLp2
+  - label: lineage_CLp2_CP4
     classes:
       - FBbt:00100611
       - RO:0002202 some FBbt:00100611
-  - label: lineage_BLAv1_VLPl&d1
+  - label: lineage_VLPl&d1_BLAv1
     classes:
       - FBbt:00100612
       - RO:0002202 some FBbt:00100612
@@ -674,11 +674,11 @@ neo_node_labelling:
     classes:
       - FBbt:00100613
       - RO:0002202 some FBbt:00100613
-  - label: lineage_BLAd1_LHa1
+  - label: lineage_LHa1_BLAd1
     classes:
       - FBbt:00100614
       - RO:0002202 some FBbt:00100614
-  - label: lineage_BLAd2_SIPa1
+  - label: lineage_SIPa1_BLAd2
     classes:
       - FBbt:00100615
       - RO:0002202 some FBbt:00100615
@@ -698,11 +698,11 @@ neo_node_labelling:
     classes:
       - FBbt:00100619
       - RO:0002202 some FBbt:00100619
-  - label: lineage_BLD1_LHl4
+  - label: lineage_LHl4_BLD1
     classes:
       - FBbt:00100620
       - RO:0002202 some FBbt:00100620
-  - label: lineage_BLD2_SLPav2
+  - label: lineage_SLPav2_BLD2
     classes:
       - FBbt:00100621
       - RO:0002202 some FBbt:00100621
@@ -710,7 +710,7 @@ neo_node_labelling:
     classes:
       - FBbt:00100622
       - RO:0002202 some FBbt:00100622
-  - label: lineage_BLD4_LHl1
+  - label: lineage_LHl1_BLD4
     classes:
       - FBbt:00100623
       - RO:0002202 some FBbt:00100623
@@ -726,7 +726,7 @@ neo_node_labelling:
     classes:
       - FBbt:00100627
       - RO:0002202 some FBbt:00100627
-  - label: lineage_BLP4_LHp1
+  - label: lineage_LHp1_BLP4
     classes:
       - FBbt:00100628
       - RO:0002202 some FBbt:00100628
@@ -746,11 +746,11 @@ neo_node_labelling:
     classes:
       - FBbt:00100632
       - RO:0002202 some FBbt:00100632
-  - label: lineage_BLVp1_VLPl&p2
+  - label: lineage_VLPl&p2_BLVp1
     classes:
       - FBbt:00100633
       - RO:0002202 some FBbt:00100633
-  - label: lineage_DALv3_CREl1
+  - label: lineage_CREl1_DALv3
     classes:
       - FBbt:00100645
       - RO:0002202 some FBbt:00100645
