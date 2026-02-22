@@ -19,7 +19,7 @@ ENV NEO4J_dbms_connector_http_listen__address=0.0.0.0:7474
 ENV NEO4J_dbms_connector_bolt_listen__address=0.0.0.0:7687
 ENV NEO4J_dbms_security_procedures_unrestricted=ebi.spot.neo4j2owl.*,apoc.*,gds.*
 ENV NEO4J_dbms_jvm_additional="-Dlog4j2.formatMsgNoLookups=true -Dlog4j2.disable.jmx=true"
-# Pin GDS only - APOC pinned below as a jar to avoid Guava version conflict with NEO4JLABS_PLUGINS auto-download
+# Pin GDS only - APOC pinned below as a jar (with Guava stripped) to avoid Guava version conflict
 ENV NEO4JLABS_PLUGINS='["graph-data-science"]'
 
 RUN apt-get -y update && apt-get -y install tar gzip curl wget zip unzip
@@ -29,8 +29,9 @@ ADD https://github.com/VirtualFlyBrain/neo4j2owl/releases/download/1.2.3-PRE/neo
 # Strip Guava from neo4j2owl.jar - it bundles guava-19.0 without relocation, which causes
 # IncompatibleClassChangeError on MapMakerInternalMap$WeakValueReference vs Neo4j's newer Guava
 RUN zip -d /var/lib/neo4j/plugins/neo4j2owl.jar 'com/google/common/*'
-# Use non-all APOC jar which doesn't bundle Guava - avoids IncompatibleClassChangeError on MapMakerInternalMap
-ADD https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.2.0.9/apoc-4.2.0.9.jar /var/lib/neo4j/plugins/apoc.jar
+# Use apoc-all jar matching Neo4j 4.2.19, then strip its bundled Guava 31 to avoid IncompatibleClassChangeError
+ADD https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.2.0.12/apoc-4.2.0.12-all.jar /var/lib/neo4j/plugins/apoc.jar
+RUN zip -d /var/lib/neo4j/plugins/apoc.jar 'com/google/common/*'
 
 RUN mkdir -p /opt/VFB/backup/
 
