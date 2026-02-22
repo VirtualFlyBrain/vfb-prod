@@ -26,8 +26,8 @@ RUN apt-get -y update && apt-get -y install tar gzip curl wget zip unzip
 
 COPY loadKB.sh /opt/VFB/
 ADD https://github.com/VirtualFlyBrain/neo4j2owl/releases/download/1.2.3-PRE/neo4j2owl.jar /var/lib/neo4j/plugins/neo4j2owl.jar
-# Pin APOC 4.2.x explicitly - NEO4JLABS_PLUGINS downloads an incompatible version causing Guava IncompatibleClassChangeError
-ADD https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.2.0.9/apoc-4.2.0.9-all.jar /var/lib/neo4j/plugins/apoc.jar
+# Use non-all APOC jar which doesn't bundle Guava - avoids IncompatibleClassChangeError on MapMakerInternalMap
+ADD https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.2.0.9/apoc-4.2.0.9.jar /var/lib/neo4j/plugins/apoc.jar
 
 RUN mkdir -p /opt/VFB/backup/
 
