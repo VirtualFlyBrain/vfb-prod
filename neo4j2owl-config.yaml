@@ -1350,6 +1350,8 @@ curie_map:
   CARO: http://purl.obolibrary.org/obo/CARO_
   NPEx: http://www.snomedbrowser.com/Codes/Details/
   BFO: http://purl.obolibrary.org/obo/BFO_
+  rhea: http://rdf.rhea-db.org/
+  EC: http://purl.uniprot.org/enzyme/
 
 filters:
   solr:
