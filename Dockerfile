@@ -19,7 +19,11 @@ ENV NEO4J_dbms_connector_http_listen__address=0.0.0.0:7474
 ENV NEO4J_dbms_connector_bolt_listen__address=0.0.0.0:7687
 ENV NEO4J_dbms_security_procedures_unrestricted=ebi.spot.neo4j2owl.*,apoc.*,gds.*
 ENV NEO4J_dbms_jvm_additional="-Dlog4j2.formatMsgNoLookups=true -Dlog4j2.disable.jmx=true"
-ENV NEO4JLABS_PLUGINS='["graph-data-science"]'
+# GDS pinned as a jar at build time (same as APOC/neo4j2owl). It used to be fetched by the entrypoint at every
+# container start via NEO4JLABS_PLUGINS, which fails the start whenever graphdatascience.ninja is unreachable
+# (seen 2026-10-23: "No jar URL found for version '4.2.19'"). 1.8.8 is the GDS build versions.json lists for 4.2.19.
+ENV NEO4JLABS_PLUGINS='[]'
+ADD https://graphdatascience.ninja/neo4j-graph-data-science-1.8.8.jar /var/lib/neo4j/plugins/graph-data-science.jar
 
 RUN apt-get -y update && apt-get -y install tar gzip curl wget zip unzip
 
